@@ -29,27 +29,40 @@ class TreeNode:
 
 class Helper:
     def numbers_to_tree(self, numbers: List[int]) -> TreeNode:
-        def helper(i: int) -> TreeNode:
-            if i >= len(numbers) or numbers[i] is None:
-                return None
-            node = TreeNode(numbers[i])
-            node.left = helper(i * 2 + 1)
-            node.right = helper(i * 2 + 2)
-            return node
-        return helper(0)
+        if not numbers:
+            return None
+        root = TreeNode(numbers[0])
+        queue = [root]
+        i = 1
+        while queue and i < len(numbers):
+            node = queue.pop(0)
+            if numbers[i] is not None:
+                node.left = TreeNode(numbers[i])
+                queue.append(node.left)
+            i += 1
+            if i < len(numbers) and numbers[i] is not None:
+                node.right = TreeNode(numbers[i])
+                queue.append(node.right)
+            i += 1
+        return root
 
     def tree_to_numbers(self, root: TreeNode) -> List[int]:
-        def helper(node: TreeNode) -> List[int]:
-            if not node:
-                return [None]
-            left_numbers = helper(node.left)
-            right_numbers = helper(node.right)
-            return [node.val] + left_numbers + right_numbers
-        return helper(root)
+        if not root:
+            return []
+        queue = [root]
+        numbers = []
+        while queue:
+            node = queue.pop(0)
+            numbers.append(node.val)
+            if node.left:
+                queue.append(node.left)
+            if node.right:
+                queue.append(node.right)
+        return numbers
 
 class Solution1:
     def invertTree(self, root: TreeNode) -> TreeNode:
-        pass
+        return root
 
 import unittest
 class Test(unittest.TestCase):
@@ -57,6 +70,11 @@ class Test(unittest.TestCase):
         self.helper = Helper()
         self.solution1 = Solution1()
 
+    def test_example1(self):
+        params = self.helper.numbers_to_tree([4,2,7,1,3,6,9])
+        expected_output = [4,7,2,9,6,3,1]
+        actual_output1 = self.helper.tree_to_numbers(self.solution1.invertTree(params))
+        self.assertEqual(actual_output1, expected_output)
 
 #################################
 if __name__ == '__main__':
