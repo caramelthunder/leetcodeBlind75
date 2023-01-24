@@ -20,9 +20,20 @@ s and t consist of lowercase English letters.
 Follow up: What if the inputs contain Unicode characters? How would you adapt your solution to such a case?
 '''
 
+from collections import Counter
 class Solution:
     def isAnagram(self, s: str, t: str) -> bool:
-        return True
+        s_chars = Counter(s)
+        
+        for char in t:
+            if char in s_chars:
+                s_chars[char] -= 1
+                if s_chars[char] == 0:
+                    del s_chars[char]
+            else:
+                return False
+
+        return len(s_chars) == 0
 
 import unittest
 class Test(unittest.TestCase):
@@ -44,6 +55,47 @@ class Test(unittest.TestCase):
             "car"
         )
         expected_output = False
+        actual_output = self.solution.isAnagram(*params)
+        self.assertEqual(actual_output, expected_output)
+
+    def test_example3(self):
+        params = (
+            "",
+            ""
+        )
+        expected_output = True
+        actual_output = self.solution.isAnagram(*params)
+        self.assertEqual(actual_output, expected_output)
+
+    def test_large_input(self):
+        s = 'a' * (5 * 104)
+        t = 'a' * (5 * 104)
+        params = (s, t)
+        expected_output = True
+        actual_output = self.solution.isAnagram(*params)
+        self.assertEqual(actual_output, expected_output)
+        
+    def test_special_characters(self):
+        s = 'a b c'
+        t = 'c b a'
+        params = (s, t)
+        expected_output = True
+        actual_output = self.solution.isAnagram(*params)
+        self.assertEqual(actual_output, expected_output)
+        
+    def test_unicode(self):
+        s = 'a🙂b'
+        t = 'b🙂a'
+        params = (s, t)
+        expected_output = True
+        actual_output = self.solution.isAnagram(*params)
+        self.assertEqual(actual_output, expected_output)
+        
+    def test_numbers_symbols(self):
+        s = 'a1b#'
+        t = '#b1a'
+        params = (s, t)
+        expected_output = True
         actual_output = self.solution.isAnagram(*params)
         self.assertEqual(actual_output, expected_output)
 
