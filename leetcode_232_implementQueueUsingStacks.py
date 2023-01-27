@@ -36,3 +36,97 @@ All the calls to pop and peek are valid.
  
 Follow-up: Can you implement the queue such that each operation is amortized O(1) time complexity? In other words, performing n operations will take overall O(n) time even if one of those operations may take longer.
 '''
+
+class MyQueue:
+    def __init__(self):
+        self.stackA = []
+        self.stackB = []
+        self.first = None
+
+    def push(self, val):
+        if not self.stackA:
+            self.first = val
+        self.stackA.append(val)
+    
+    def pop(self) -> int:
+        if self.empty():
+            return None
+
+        if not self.stackB:
+            while self.stackA:
+                self.stackB.append(self.stackA.pop())
+
+        return self.stackB.pop()
+    
+    def peek(self) -> int:
+        if self.stackB:
+            return self.stackB[-1]
+        return self.first
+    
+    def empty(self) -> bool:
+        return not (self.stackA or self.stackB)
+
+class Helper:
+    def run_methods(self, method_names: list[str], params: list[any]) -> list[any]:
+        q = MyQueue()
+        output = [None]
+        for i in range(1, len(method_names)):
+            method = getattr(q, method_names[i])
+            output.append(method(*params[i]))
+        return output
+
+import unittest
+class Test(unittest.TestCase):
+    def setUp(self):
+        self.helper = Helper()
+    
+    def test_example_1(self):
+        method_names = ["MyQueue", "push", "push", "peek", "pop", "empty"]
+        params = [[], [1], [2], [], [], []]
+        expected_output = [None, None, None, 1, 1, False]
+        actual_output = self.helper.run_methods(method_names, params)
+        self.assertEqual(actual_output, expected_output)
+
+    def test_multiple_pushes(self):
+        method_names = ["MyQueue", "push", "push", "push", "pop", "pop", "pop", "empty"]
+        params = [[], [1], [2], [3], [], [], [], []]
+        expected_output = [None, None, None, None, 1, 2, 3, True]
+        actual_output = self.helper.run_methods(method_names, params)
+        self.assertEqual(actual_output, expected_output)
+    
+    def test_empty_queue(self):
+        method_names = ["MyQueue", "pop", "empty"]
+        params = [[], [], []]
+        expected_output = [None, None, True]
+        actual_output = self.helper.run_methods(method_names, params)
+        self.assertEqual(actual_output, expected_output)
+
+    def test_multiple_pops(self):
+        method_names = ["MyQueue", "push", "push", "pop", "pop", "pop", "empty"]
+        params = [[], [1], [2], [], [], [], []]
+        expected_output = [None, None, None, 1, 2, None, True]
+        actual_output = self.helper.run_methods(method_names, params)
+        self.assertEqual(actual_output, expected_output)
+    
+    def test_peek_without_pushes(self):
+        method_names = ["MyQueue", "peek", "empty"]
+        params = [[], [], []]
+        expected_output = [None, None, True]
+        actual_output = self.helper.run_methods(method_names, params)
+        self.assertEqual(actual_output, expected_output)
+    
+    def test_peeks(self):
+        method_names = ["MyQueue", "push", "push", "peek", "pop", "peek", "empty"]
+        params = [[], [1], [2], [], [], [], []]
+        expected_output =[None, None, None, 1, 1, 2, False]
+        actual_output = self.helper.run_methods(method_names, params)
+        self.assertEqual(actual_output, expected_output)
+        
+#######################################
+if __name__ == '__main__':
+    unittest.main()
+
+
+
+
+
