@@ -29,7 +29,7 @@ class Solution:
 
         for char in s:
             char_map[char] = char_map.get(char, 0) + 1
-            
+
             if char_map[char] == 2:
                 pairs += 1
                 del char_map[char]
@@ -62,6 +62,30 @@ class Test(unittest.TestCase):
     def test_empty_string(self):
         s = ""
         expected_output = 0
+        actual_output = self.solution.longestPalindrome(s)
+        self.assertEqual(actual_output, expected_output)
+    
+    def test_even_length_only_even_frequency(self):
+        s = "aabbccdd"
+        expected_output = 8
+        actual_output = self.solution.longestPalindrome(s)
+        self.assertEqual(actual_output, expected_output)
+
+    def test_odd_length_only_odd_frequency(self):
+        s = "abcddcbaa"
+        expected_output = 9
+        actual_output = self.solution.longestPalindrome(s)
+        self.assertEqual(actual_output, expected_output)
+
+    def test_odd_length_mixed_frequency(self):
+        s = "aabccddc"
+        expected_output = 7
+        actual_output = self.solution.longestPalindrome(s)
+        self.assertEqual(actual_output, expected_output)
+
+    def test_multiple_longest_palindrome(self):
+        s = "aabbccddeeffgghh"
+        expected_output = 16
         actual_output = self.solution.longestPalindrome(s)
         self.assertEqual(actual_output, expected_output)
 
