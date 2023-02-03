@@ -1,68 +1,14 @@
-'''
-https://leetcode.com/problems/diameter-of-binary-tree/
-
-Given the root of a binary tree, return the length of the diameter of the tree.
-
-The diameter of a binary tree is the length of the longest path between any two nodes in a tree. 
-This path may or may not pass through the root.
-
-The length of a path between two nodes is represented by the number of edges between them.
-
-Example 1:
-Input: root = [1,2,3,4,5]
-          1
-        /   \
-       2     3
-      /  \
-     4    5
-Output: 3
-Explanation: 3 is the length of the path [4,2,1,3] or [5,2,1,3].
-
-Example 2:
-Input: root = [1,2]
-Output: 1
- 
-Constraints:
-The number of nodes in the tree is in the range [1, 104].
--100 <= Node.val <= 100
-'''
-
-class TreeNode:
-  def __init__(self, val= None):
-    self.val = val
-    self.left = None
-    self.right = None
-
-class TreeHelper:
-  def arr_to_tree(self, arr: list[any], pos: int) -> TreeNode:
-    if not arr or pos >= len(arr) or arr[pos] is None:
-      return None
-
-    node = TreeNode(arr[pos])
-    node.left = self.arr_to_tree(arr, pos * 2 + 1)
-    node.right = self.arr_to_tree(arr, pos * 2 + 2)
-
-    return node
-
-
-class Solution:
-  def diameterOfBinaryTree(self, root: TreeNode) -> int:
-    def dfs(node):
-      if not node:
-        return (0, 0)
-
-      left_dia, left_height = dfs(node.left)
-      right_dia, right_height = dfs(node.right)
-      local_diameter = left_height + right_height
-
-      diameter = max(max(left_dia, right_dia), local_diameter)
-
-      return (diameter, max(left_height, right_height) + 1)
-    
-    diameter, _ = dfs(root)
-    return diameter
-
+import sys
+import os
 import unittest
+
+current = os.path.dirname(os.path.realpath(__file__))
+parent = os.path.dirname(current)
+sys.path.append(parent)
+
+from helpers.leetcode_543_helper import TreeHelper
+from solutions.leetcode_543_solution import Solution
+
 class Test(unittest.TestCase):
   def setUp(self):
     self.treeHelper = TreeHelper()
