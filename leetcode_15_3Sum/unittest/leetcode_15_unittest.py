@@ -8,13 +8,11 @@ sys.path.append(parent)
 
 from solutions.leetcode_15_using_sort import Solution as Solution1
 from solutions.leetcode_15_using_hash_set_table import Solution as Solution2
-from helpers.leetcode_15_helper import Helper
 
 class Test(unittest.TestCase):
     def setUp(self):
         self.solution1 = Solution1()
         self.solution2 = Solution2()
-        self.helper = Helper()
 
     def test_example_1(self):
         nums = [-1,0,1,2,-1,-4]
