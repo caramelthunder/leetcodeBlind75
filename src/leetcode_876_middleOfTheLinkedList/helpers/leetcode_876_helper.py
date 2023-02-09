@@ -19,3 +19,4 @@ class LinkedListHelper:
             arr.append(curr.val)
             curr = curr.next
         return arr
+        

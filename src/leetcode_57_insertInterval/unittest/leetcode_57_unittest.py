@@ -84,7 +84,6 @@ class Test(unittest.TestCase):
         actual_output = self.solution.insert(*input)
         self.assertEqual(actual_output, expected_output)
 
-
 #########################################
 if __name__ == '__main__':
     unittest.main()

@@ -6,8 +6,8 @@ current = os.path.dirname(os.path.realpath(__file__))
 parent = os.path.dirname(current)
 sys.path.append(parent)
 
-from solutions.leetcode_70_bottomup import Solution as Solution1
-from solutions.leetcode_70_bottomup import Solution as Solution2
+from solutions.leetcode_70_topdown_memoisation import Solution as Solution1
+from solutions.leetcode_70_bottomup_tabulation import Solution as Solution2
 from solutions.leetcode_70_bottomup_space_optimized import Solution as Solution3
 
 class Test(unittest.TestCase):

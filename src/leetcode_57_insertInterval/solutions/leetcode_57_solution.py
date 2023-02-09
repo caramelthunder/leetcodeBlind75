@@ -20,10 +20,10 @@ class Solution:
             else:
                 merged_intervals.append(newInterval)
             i += 1
-            
         return merged_intervals
 
     def merge(self, old, new):
         start = min(old[0], new[0])
         end = max(old[1], new[1])
         return [start, end]
+

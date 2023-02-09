@@ -14,3 +14,4 @@ class TreeHelper:
     node.right = self.arr_to_tree(arr, pos * 2 + 2)
 
     return node
+    

@@ -7,3 +7,5 @@ class Solution:
         points.sort(key= lambda point: find_distance(*point))
         res = [points[i] for i in range(k)]
         return res
+
+        

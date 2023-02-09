@@ -14,3 +14,5 @@ class Solution:
 
         res = [[x, y] for _, x, y in minheap]
         return res
+
+        
