@@ -40,7 +40,7 @@ jobs:
             echo "Running tests in $folder" >> $log_file
             for test_file in $folder/unittest/*_unittest.py; do
               output=$(python $test_file >> $log_file)
-              echo $output >> $log_file
+              echo "$output" >> $log_file
               #python $test_file >> $log_file
             done
             echo "" >> $log_file
