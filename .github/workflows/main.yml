@@ -46,7 +46,7 @@ jobs:
     - name: Upload log file
       uses: actions/upload-artifact@v2
       with:
-        name: unittest_log.txt
+        name: src/unittest_log.txt
         path: src/unittest_log.txt
     
     - name: Update README

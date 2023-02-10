@@ -31,6 +31,7 @@ class UpdateReadmeFile:
 
     def get_folder_names(self, dir= os.getcwd() + '/src', prefix= 'leetcode_'):
         folders = []
+        print(dir + '/src/')
         for folder in os.listdir(dir):
             if folder.startswith(prefix):
                 folders.append(folder)
@@ -40,6 +41,7 @@ class UpdateReadmeFile:
         metadata = {}
         try:
             with open(dir + '/src/' + folder + '/.metadata.json', 'r') as f:
+                print(dir + '/src/' + folder + '/.metadata.json')
                 data = json.load(f)
                 metadata['id'] = self.extract_numbers(folder)
                 metadata['folder'] = folder
