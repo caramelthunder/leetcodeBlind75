@@ -35,7 +35,7 @@ class UpdateReadmeFile:
     def get_folder_names(self, dir= os.getcwd() + '/src', prefix= 'leetcode_'):
         folders = []
         for folder in os.listdir(dir):
-            print(folder)
+            #print(folder)
             if folder.startswith(prefix):
                 folders.append(folder)
         return folders
