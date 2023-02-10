@@ -6,7 +6,7 @@ current = os.path.dirname(os.path.realpath(__file__))
 parent = os.path.dirname(current)
 sys.path.append(parent)
 
-from solutions.leetcode_1_twoSum import Solution
+from solutions.leetcode_1_solution import Solution
 
 import unittest
 class Test(unittest.TestCase):
