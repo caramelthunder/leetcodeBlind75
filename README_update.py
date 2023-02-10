@@ -23,8 +23,8 @@ class UpdateReadmeFile:
     }
 
     def __init__(self, filename):
-        print('----The current branch is'.format(BRANCH))
-        print('----The current working Dir is'.format(os.getcwd()))
+        # print('----The current branch is'.format(BRANCH))
+        # print('----The current working Dir is'.format(os.getcwd()))
         self.filename = filename
         self.index = {}
         self.scan_folders()
@@ -41,8 +41,8 @@ class UpdateReadmeFile:
         return folders
 
     def get_metadada(self, folder, dir= os.getcwd()) -> dict:
-        print('---Getting ' + dir + '/src/' + folder + '/.metadata.json')
-        print(os.listdir(dir + '/src/' + folder))
+        # print('---Getting ' + dir + '/src/' + folder + '/.metadata.json')
+        # print(os.listdir(dir + '/src/' + folder))
         metadata = {}
         try:
             with open(dir + '/src/' + folder + '/.metadata.json', 'r') as f:
@@ -282,4 +282,8 @@ if __name__ == '__main__':
     filename = 'README.md'
     r = UpdateReadmeFile(filename)
     r.update_readme()
+    
+    with open(filename, 'r') as readme:
+        for line in readme:
+            print(line)
 
