@@ -64,7 +64,7 @@ jobs:
         python README_update.py $branch
     ########
     - run: |
-        git pull ${{ github.ref }}
+        git pull origin ${{ github.ref }}
         git add .
         git status
 
@@ -72,5 +72,5 @@ jobs:
       uses: ad-m/github-push-action@master
       with:
         github_token: ${{ env.GITHUB_TOKEN }}
-        branch: ${{ github.ref }}
+        branch:  origin ${{ github.ref }}
         message: "Update README file"
