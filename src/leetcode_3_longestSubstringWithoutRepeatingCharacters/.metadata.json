@@ -1,0 +1,6 @@
+{
+    "name": "Longest Substring Without Repeating Characters",
+    "level": "2",
+    "leetcode_url": "https://leetcode.com/problems/longest-substring-without-repeating-characters/",
+    "topics": ["Array", "Hash Table"]
+}

@@ -1,0 +1,6 @@
+{
+    "name": "Maximum Subarray",
+    "level": "2",
+    "leetcode_url": "https://leetcode.com/problems/maximum-subarray/",
+    "topics": ["Array", "Dynamic Programming"]
+}

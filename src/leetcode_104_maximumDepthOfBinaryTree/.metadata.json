@@ -1,0 +1,6 @@
+{
+    "name": "Maximum Depth of Binary Tree",
+    "level": "1",
+    "leetcode_url": "https://leetcode.com/problems/maximum-depth-of-binary-tree/",
+    "topics": ["Tree", "Binary Tree", "Depth-First Search"]
+}

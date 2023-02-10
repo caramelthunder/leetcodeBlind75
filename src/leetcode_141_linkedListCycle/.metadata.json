@@ -1,0 +1,6 @@
+{
+    "name": "Linked List Cycle",
+    "level": "1",
+    "leetcode_url": "https://leetcode.com/problems/linked-list-cycle/",
+    "topics": ["Hash Table", "Linked List", "Two Pointers"]
+}

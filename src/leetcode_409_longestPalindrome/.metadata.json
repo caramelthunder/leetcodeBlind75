@@ -1,0 +1,6 @@
+{
+    "name": "Longest Palindrome",
+    "level": "1",
+    "leetcode_url": "https://leetcode.com/problems/longest-palindrome/",
+    "topics": ["Hash Table", "String", "Greedy"]
+}

@@ -1,0 +1,6 @@
+{
+    "name": "01 Matrix",
+    "level": "2",
+    "leetcode_url": "https://leetcode.com/problems/01-matrix/",
+    "topics": ["Grid", "Dynamic Programming", "Breadth-First Search"]
+}

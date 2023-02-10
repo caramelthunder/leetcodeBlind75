@@ -1,0 +1,6 @@
+{
+    "name": "3Sum",
+    "level": "2",
+    "leetcode_url": "https://leetcode.com/problems/3sum/",
+    "topics": ["Array", "Two Pointers", "Hash Table"]
+}

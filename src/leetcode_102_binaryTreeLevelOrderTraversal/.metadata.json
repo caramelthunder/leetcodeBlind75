@@ -1,0 +1,6 @@
+{
+    "name": "Binary Tree Level Order Traversal",
+    "level": "2",
+    "leetcode_url": "https://leetcode.com/problems/binary-tree-level-order-traversal/",
+    "topics": ["Tree", "Breadth-First Search", "Depth-First Search", "Binary Tree"]
+}

@@ -1,0 +1,6 @@
+{
+    "name": "Merge Two Sorted Lists",
+    "level": "1",
+    "leetcode_url": "https://leetcode.com/problems/merge-two-sorted-lists/",
+    "topics": ["Linked List", "Recursion"]
+}

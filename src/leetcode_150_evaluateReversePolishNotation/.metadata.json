@@ -1,0 +1,6 @@
+{
+    "name": "Evaluate Reverse Polish Notation",
+    "level": "2",
+    "leetcode_url": "https://leetcode.com/problems/evaluate-reverse-polish-notation/",
+    "topics": ["Array", "Stack"]
+}

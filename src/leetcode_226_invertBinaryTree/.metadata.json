@@ -1,0 +1,6 @@
+{
+    "name": "Invert Binary Tree",
+    "level": "1",
+    "leetcode_url": "https://leetcode.com/problems/invert-binary-tree/",
+    "topics": ["Tree", "Binary Tree", "Depth-First Search", "Breadth-First Search"]
+}
