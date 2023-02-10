@@ -96,7 +96,7 @@ class UpdateReadmeFile:
         with open(self.filename, 'w') as readme:
             header =  '<div align="center">\n'
             header += '<h2>LeetCode Blind 75 Questions and More</h2>\n'
-            header += '<h5>By Thinh Nguyen</h5>\n'
+            header += '<h5>By Thinh Nguyen v1</h5>\n'
             header += '</div>\n'
             header += '\n'
             readme.write(header)
