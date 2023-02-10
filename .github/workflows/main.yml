@@ -15,11 +15,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Reset repository
-      run: |
-        git fetch --all
-        git reset --hard
-
     - uses: actions/checkout@v2
     - name: Set up Python
       uses: actions/setup-python@v2
@@ -65,7 +60,11 @@ jobs:
 
         # Pass the branch name to the README_update.py script
         python README_update.py $branch
-    
+    ########
+    - run: git pull
+    - run: git add .
+    - run: git commit -m "Update README file"
+
     - name: Add Commit and push changes
       uses: ad-m/github-push-action@master
       with:
