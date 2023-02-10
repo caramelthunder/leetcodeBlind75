@@ -8,9 +8,9 @@ on:
 
 jobs:
   run-tests:
-    permission:
+    permissions:
       contents: read|write
-      
+
     runs-on: ubuntu-latest
 
     steps:
