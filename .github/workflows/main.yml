@@ -63,8 +63,10 @@ jobs:
         # Pass the branch name to the README_update.py script
         python README_update.py $branch
     ########
-    - run: git pull origin feature
-    - run: git add .
+    - run: |
+        git pull origin feature
+        git add .
+        git status
 
     - name: Add Commit and push changes
       uses: ad-m/github-push-action@master
