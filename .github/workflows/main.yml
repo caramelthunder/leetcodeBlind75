@@ -15,6 +15,11 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+    - name: Reset repository
+      run: |
+        git fetch --all
+        git reset --hard
+
     - uses: actions/checkout@v2
     - name: Set up Python
       uses: actions/setup-python@v2

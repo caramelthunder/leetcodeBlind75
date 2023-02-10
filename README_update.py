@@ -283,7 +283,7 @@ if __name__ == '__main__':
     r = UpdateReadmeFile(filename)
     r.update_readme()
     
-    with open(filename, 'r') as readme:
-        for line in readme:
-            print(line)
+    # with open(filename, 'r') as readme:
+    #     for line in readme:
+    #         print(line)
 
