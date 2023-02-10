@@ -271,7 +271,7 @@ class UpdateReadmeFile:
 
 ############################
 if __name__ == '__main__':
-    filename = '/Users/thinhnguyen/Code/blind_75/README.md'
+    filename = 'README.md'
     r = UpdateReadmeFile(filename)
     r.update_readme()
 
