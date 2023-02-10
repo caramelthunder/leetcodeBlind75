@@ -1,6 +1,11 @@
 import json
 import os
-import heapq
+import sys
+
+try:
+    BRANCH = sys.argv[1]
+except:
+    BRANCH = 'main'
 
 class UpdateReadmeFile:
     DIFICULTIES = {
@@ -8,8 +13,8 @@ class UpdateReadmeFile:
         '2': 'Medium',
         '3': 'Hard'
     }
-    GITHUB_BASE_URL = 'https://github.com/caramelthunder/leetcodeBlind75/tree/main/src/'
-    GITHUB_QUICKLINKS = 'https://github.com/caramelthunder/leetcodeBlind75/tree/main#'
+    GITHUB_BASE_URL = 'https://github.com/caramelthunder/leetcodeBlind75/tree/{}/src/'.format(BRANCH)
+    GITHUB_QUICKLINKS = 'https://github.com/caramelthunder/leetcodeBlind75/tree/{}#'.format(BRANCH)
     ROW_TEMPLATES = {
         1 : '|{}|[{}]({})|**{}**|[Solution]({}{}/solutions/{})|[Test]({}{}/unittest/{})|\n',
         2 : '|{}|[{}]({})|**{}**|[Sol 1]({}{}/solutions/{}), [Sol 2]({}{}/solutions/{})|[Test]({}{}/unittest/{})|\n',
@@ -83,7 +88,7 @@ class UpdateReadmeFile:
         with open(self.filename, 'w') as readme:
             header =  '<div align="center">\n'
             header += '<h2>LeetCode Blind 75 Questions and More</h2>\n'
-            header += '<h5>By Thinh Nguyen</h5>\n'
+            header += '<h5>By Thinh Nguyen test _1</h5>\n'
             header += '</div>\n'
             header += '\n'
             readme.write(header)
@@ -266,7 +271,7 @@ class UpdateReadmeFile:
 
 ############################
 if __name__ == '__main__':
-    filename = 'README.md'
+    filename = '/Users/thinhnguyen/Code/blind_75/README.md'
     r = UpdateReadmeFile(filename)
     r.update_readme()
 
