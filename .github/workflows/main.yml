@@ -8,7 +8,7 @@ on:
 
 env:
   GITHUB_TOKEN: ${{ secrets.ACTIONS_WORKFLOW_SECRET }}
-  
+
 jobs:
   run-tests:
 
@@ -62,12 +62,8 @@ jobs:
         python README_update.py $branch
     
     - name: Commit and push changes
-      uses: actions/github-script@0.8.0
+      uses: ad-m/github-push-action@master
       with:
-        script: |
-          # Commit and push the changes to the repository
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add README.md
-          git commit -m "Update README.md"
-          git push origin feature
+        github_token: ${{ env.GITHUB_TOKEN }}
+        branch: ${{ github.ref }}
+        message: "Update file"
