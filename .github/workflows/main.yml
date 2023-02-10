@@ -60,11 +60,13 @@ jobs:
     
     - name: Commit and push changes
       uses: actions/github-script@0.8.0
-      # env:
-      #   GITHUB_TOKEN: ${{ secrets.ACTIONS_WORKFLOW_SECRET }}
+      env:
+        GITHUB_TOKEN: ${{ secrets.ACTIONS_WORKFLOW_SECRET }}
       with:
         script: |
           # Commit and push the changes to the repository
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
           git add README.md
           git commit -m "Update README.md"
-          git push 
+          git push origin feature
