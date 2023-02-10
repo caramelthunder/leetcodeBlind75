@@ -9,7 +9,7 @@ on:
 jobs:
   run-tests:
     permissions:
-      contents: read|write
+      contents: read-all|write-all
 
     runs-on: ubuntu-latest
 
