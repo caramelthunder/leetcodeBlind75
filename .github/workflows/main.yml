@@ -76,5 +76,5 @@ jobs:
       uses: ad-m/github-push-action@master
       with:
         github_token: ${{ env.GITHUB_TOKEN }}
-        branch:  origin ${{ github.ref }}
+        branch:  ${{ github.ref }}
         message: "Update README file"
