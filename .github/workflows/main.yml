@@ -6,6 +6,9 @@ on:
       - main
       - feature
 
+env:
+  GITHUB_TOKEN: ${{ secrets.ACTIONS_WORKFLOW_SECRET }}
+  
 jobs:
   run-tests:
 
@@ -60,8 +63,6 @@ jobs:
     
     - name: Commit and push changes
       uses: actions/github-script@0.8.0
-      env:
-        GITHUB_TOKEN: ${{ secrets.ACTIONS_WORKFLOW_SECRET }}
       with:
         script: |
           # Commit and push the changes to the repository
