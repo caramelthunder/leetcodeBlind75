@@ -8,8 +8,6 @@ try:
 except:
     BRANCH = 'main'
 
-print('----The current branch is'.format(BRANCH))
-print('----The current working Dir is'.format(os.getcwd()))
 class UpdateReadmeFile:
     DIFICULTIES = {
         '1': 'Easy',
@@ -25,6 +23,8 @@ class UpdateReadmeFile:
     }
 
     def __init__(self, filename):
+        print('----The current branch is'.format(BRANCH))
+        print('----The current working Dir is'.format(os.getcwd()))
         self.filename = filename
         self.index = {}
         self.scan_folders()
@@ -35,6 +35,7 @@ class UpdateReadmeFile:
     def get_folder_names(self, dir= os.getcwd() + '/src', prefix= 'leetcode_'):
         folders = []
         for folder in os.listdir(dir):
+            print(folder)
             if folder.startswith(prefix):
                 folders.append(folder)
         return folders
