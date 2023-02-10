@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main
+      - feature
 
 jobs:
   run-tests:
@@ -47,3 +48,11 @@ jobs:
       with:
         name: unittest_log.txt
         path: src/unittest_log.txt
+    
+    - name: Update README
+      run: |
+        # Get the current branch name
+        branch=${{ github.ref }}
+
+        # Pass the branch name to the README_update.py script
+        python README_update.py $branch
