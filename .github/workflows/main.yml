@@ -1,0 +1,49 @@
+name: Run Tests
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  run-tests:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.x
+
+    - name: Install dependencies
+      run: |
+        pip install -r requirements.txt
+
+    - name: Run tests
+      run: |
+        # Define the log file
+        log_file=src/log.txt
+
+        # Clear the log file
+        echo "" > $log_file
+
+        # Loop through each folder
+        for folder in src/leetcode_*
+        do
+            # Run the *_unittest.py script and redirect the output to the log file
+            echo "Running tests in $folder" >> $log_file
+            for test_file in $folder/unittest/*_unittest.py; do
+              python $test_file >> $log_file
+            done
+            echo "" >> $log_file
+        done
+
+        # Display the log file
+        cat $log_file
+
+    - name: Upload log file
+      uses: actions/upload-artifact@v2
+      with:
+        name: log.txt
+        path: src/log.txt
