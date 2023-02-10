@@ -42,6 +42,7 @@ class UpdateReadmeFile:
 
     def get_metadada(self, folder, dir= os.getcwd()) -> dict:
         print('---Getting ' + dir + '/src/' + folder + '/.metadata.json')
+        print(os.listdir(dir + '/src/' + folder))
         metadata = {}
         try:
             with open(dir + '/src/' + folder + '/.metadata.json', 'r') as f:
