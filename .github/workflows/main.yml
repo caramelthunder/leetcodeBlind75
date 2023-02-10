@@ -60,11 +60,16 @@ jobs:
 
         # Pass the branch name to the README_update.py script
         python README_update.py $branch
+
+        git add .
+
+        git commit -m "updated README"
+
+        git push -u origin branch
     
-    - name: Add Commit and push changes
-      uses: ad-m/github-push-action@master
-      with:
-        github_token: ${{ env.GITHUB_TOKEN }}
-        branch: ${{ github.ref }}
-        message: "Update README file"
-        github_url: "https://github.com/caramelthunder/leetcodeBlind75"
+    # - name: Add Commit and push changes
+    #   uses: ad-m/github-push-action@master
+    #   with:
+    #     github_token: ${{ env.GITHUB_TOKEN }}
+    #     branch: ${{ github.ref }}
+    #     message: "Update README file"
