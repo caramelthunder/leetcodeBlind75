@@ -3,10 +3,13 @@ import os
 import sys
 
 try:
-    BRANCH = sys.argv[1]
+    REF = sys.argv[1]
+    BRANCH = REF.split("/")[2]
 except:
     BRANCH = 'main'
 
+print('----The current branch is'.format(BRANCH))
+print('----The current working Dir is'.format(os.getcwd()))
 class UpdateReadmeFile:
     DIFICULTIES = {
         '1': 'Easy',
@@ -31,7 +34,6 @@ class UpdateReadmeFile:
 
     def get_folder_names(self, dir= os.getcwd() + '/src', prefix= 'leetcode_'):
         folders = []
-        print(dir + '/src/')
         for folder in os.listdir(dir):
             if folder.startswith(prefix):
                 folders.append(folder)
@@ -62,6 +64,7 @@ class UpdateReadmeFile:
                         metadata['unittest'] = file
 
         except FileNotFoundError:
+            print(dir + '/src/' + folder + '/.metadata.json')
             print('".metadata.json" does not exist in {}/'.format(folder))
 
         return metadata
