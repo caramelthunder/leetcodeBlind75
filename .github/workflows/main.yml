@@ -64,6 +64,8 @@ jobs:
         python README_update.py $branch
     ########
     - run: |
+        git config --global user.email "thinh.nguyence17@gmail.com"
+        git config --global user.name "Thinh Nguyen"
         git pull origin ${{ github.ref }}
         git status
         git add .
