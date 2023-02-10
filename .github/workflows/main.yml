@@ -42,6 +42,10 @@ jobs:
         # Display the log file
         cat $log_file
 
+    - name: Copy log file
+      run: |
+        cp src/unittest_log.txt src/unittest_log_copy.txt
+
     - name: Upload log file
       uses: actions/upload-artifact@v2
       with:
