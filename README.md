@@ -4,7 +4,7 @@
 </div>
 ---
 <details>
-<summary> ### Blind 75 </summary>
+    <summary> Blind 75 </summary>
 |LC#|Problem|Level|Python Solution(s)|Unittest|
 |---|-------|-----|------------------|--------|
 |1|[Two Sum](https://leetcode.com/problems/two-sum/)|**Easy**|[Solution](https://github.com/caramelthunder/leetcodeBlind75/tree/main/src/leetcode_1_twoSum/solutions/leetcode_1_solution.py)|[Test](https://github.com/caramelthunder/leetcodeBlind75/tree/main/src/leetcode_1_twoSum/unittest/leetcode_1_unittest.py)|
