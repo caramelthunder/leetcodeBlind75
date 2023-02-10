@@ -236,28 +236,21 @@ Each solved problem have a `unittest/` folder.
 To locate the Python test script, click on the `test` link of the problem.
 To run the test script, add the below code and `Run` the `_unittest.py`:
 
-            ```
             if __name__ == '__main__':
                 unittest.main()
-            ```
             
 You can also add more test cases by appending to the `class Test(unittest.TestCase):`
 For example:
 
-            ```
             def test_your_test_case(self):
-            input_nums = [3,3]
-            target = 6
-            expected_output = {0,1}
+                input_nums = [3,3]
+                target = 6
+                expected_output = {0,1}
 
-            output = set(self.s.twoSum(input_nums, target))
-            self.assertEqual(output, expected_output)
-            ```
+                output = set(self.s.twoSum(input_nums, target))
+                self.assertEqual(output, expected_output)
             
 #### Note:
-
-            Each problem is already equipped with `helpers functions` to execute the test cases without additional dependencies.
-            Please follow the format of the existing test cases when creating your own.
-            Happy coding !:)
-
-            
+Each problem is already equipped with `helpers functions` to execute the test cases without additional dependencies.
+Please follow the format of the existing test cases when creating your own.
+Happy coding !:)
