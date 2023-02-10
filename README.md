@@ -2,9 +2,9 @@
 <h2>LeetCode Blind 75 Questions and More</h2>
 <h5>By Thinh Nguyen</h5>
 </div>
-
-[Github Page](https://github.com/caramelthunder/leetcodeBlind75/tree/feature)
-### Blind 75
+---
+<details>
+<summary> ### Blind 75 </summary>
 |LC#|Problem|Level|Python Solution(s)|Unittest|
 |---|-------|-----|------------------|--------|
 |1|[Two Sum](https://leetcode.com/problems/two-sum/)|**Easy**|[Solution](https://github.com/caramelthunder/leetcodeBlind75/tree/main/src/leetcode_1_twoSum/solutions/leetcode_1_solution.py)|[Test](https://github.com/caramelthunder/leetcodeBlind75/tree/main/src/leetcode_1_twoSum/unittest/leetcode_1_unittest.py)|
@@ -40,7 +40,7 @@
 |733|[Flood Fill](https://leetcode.com/problems/flood-fill/)|**Easy**|[Sol 1](https://github.com/caramelthunder/leetcodeBlind75/tree/main/src/leetcode_733_floodFill/solutions/leetcode_733_DFS.py), [Sol 2](https://github.com/caramelthunder/leetcodeBlind75/tree/main/src/leetcode_733_floodFill/solutions/leetcode_733_BFS.py)|[Test](https://github.com/caramelthunder/leetcodeBlind75/tree/main/src/leetcode_733_floodFill/unittest/leetcode_733_unittest.py)|
 |876|[Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)|**Easy**|[Solution](https://github.com/caramelthunder/leetcodeBlind75/tree/main/src/leetcode_876_middleOfTheLinkedList/solutions/leetcode_876_solution.py)|[Test](https://github.com/caramelthunder/leetcodeBlind75/tree/main/src/leetcode_876_middleOfTheLinkedList/unittest/leetcode_876_unittest.py)|
 |973|[K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/)|**Medium**|[Sol 1](https://github.com/caramelthunder/leetcodeBlind75/tree/main/src/leetcode_973_KClosestPointsToOrigin/solutions/leetcode_973_using_sort.py), [Sol 2](https://github.com/caramelthunder/leetcodeBlind75/tree/main/src/leetcode_973_KClosestPointsToOrigin/solutions/leetcode_973_using_heap.py)|[Test](https://github.com/caramelthunder/leetcodeBlind75/tree/main/src/leetcode_973_KClosestPointsToOrigin/unittest/leetcode_973_unittest.py)|
-### Easy
+</details>### Easy
 |LC#|Problem|Level|Python Solution(s)|Unittest|
 |---|-------|-----|------------------|--------|
 |1|[Two Sum](https://leetcode.com/problems/two-sum/)|**Easy**|[Solution](https://github.com/caramelthunder/leetcodeBlind75/tree/main/src/leetcode_1_twoSum/solutions/leetcode_1_solution.py)|[Test](https://github.com/caramelthunder/leetcodeBlind75/tree/main/src/leetcode_1_twoSum/unittest/leetcode_1_unittest.py)|
