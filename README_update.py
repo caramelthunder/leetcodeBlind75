@@ -41,10 +41,10 @@ class UpdateReadmeFile:
         return folders
 
     def get_metadada(self, folder, dir= os.getcwd()) -> dict:
+        print('---Getting ' + dir + '/src/' + folder + '/.metadata.json')
         metadata = {}
         try:
             with open(dir + '/src/' + folder + '/.metadata.json', 'r') as f:
-                print(dir + '/src/' + folder + '/.metadata.json')
                 data = json.load(f)
                 metadata['id'] = self.extract_numbers(folder)
                 metadata['folder'] = folder
