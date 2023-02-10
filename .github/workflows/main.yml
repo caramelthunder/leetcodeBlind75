@@ -28,7 +28,7 @@ jobs:
     - name: Run tests
       run: |
         # Define the log file
-        log_file=unittest_log.txt
+        log_file=src/unittest_log.txt
 
         # Clear the log file
         echo "" > $log_file
@@ -50,8 +50,8 @@ jobs:
     - name: Upload log file
       uses: actions/upload-artifact@v2
       with:
-        name: unittest_log.txt
-        path: unittest_log.txt
+        name: src/unittest_log.txt
+        path: src/unittest_log.txt
     
     - name: Update README
       run: |
