@@ -76,7 +76,7 @@ class UpdateReadmeFile:
 
         folders = self.get_folder_names(prefix= 'leetcode_')
         for folder in folders:
-            dir = '/'.join(dir.split("/")[:-1])
+            #dir = '/'.join(dir.split("/")[:-1])
             metadata = self.get_metadada(folder, dir)
             if metadata:
                 id = metadata.get('id', float('inf'))
