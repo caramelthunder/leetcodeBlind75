@@ -8,8 +8,6 @@ on:
 
 jobs:
   run-tests:
-    permissions:
-      contents: read-all|write-all
 
     runs-on: ubuntu-latest
 
@@ -59,3 +57,14 @@ jobs:
 
         # Pass the branch name to the README_update.py script
         python README_update.py $branch
+    
+    - name: Commit and push changes
+      uses: actions/github-script@0.8.0
+      env:
+        GITHUB_TOKEN: ${{ secrets.ACTIONS_WORKFLOW_SECRET }}
+      with:
+        script: |
+          # Commit and push the changes to the repository
+          git add README.md
+          git commit -m "Update README.md"
+          git push origin ${{ github.ref }}
