@@ -1,0 +1,166 @@
+
+Running tests in src/leetcode_102_binaryTreeLevelOrderTraversal
+Running test file src/leetcode_102_binaryTreeLevelOrderTraversal/unittest/leetcode_102_unittest.py
+
+
+
+Running tests in src/leetcode_104_maximumDepthOfBinaryTree
+Running test file src/leetcode_104_maximumDepthOfBinaryTree/unittest/leetcode_104_unittest.py
+
+
+
+Running tests in src/leetcode_110_balancedBinaryTree
+Running test file src/leetcode_110_balancedBinaryTree/unittest/leetcode_110_unittest.py
+
+
+
+Running tests in src/leetcode_121_bestTimeToBuyAndSellStock
+Running test file src/leetcode_121_bestTimeToBuyAndSellStock/unittest/leetcode_121_unittest.py
+
+
+
+Running tests in src/leetcode_125_validatePalindrome
+Running test file src/leetcode_125_validatePalindrome/unittest/leetcode_125_unittest.py
+
+
+
+Running tests in src/leetcode_133_cloneGraph
+Running test file src/leetcode_133_cloneGraph/unittest/leetcode_133_unittest.py
+
+
+
+Running tests in src/leetcode_141_linkedListCycle
+Running test file src/leetcode_141_linkedListCycle/unittest/leetcode_141_unittest.py
+
+
+
+Running tests in src/leetcode_150_evaluateReversePolishNotation
+Running test file src/leetcode_150_evaluateReversePolishNotation/unittest/leetcode_150_unittest.py
+
+
+
+Running tests in src/leetcode_15_3Sum
+Running test file src/leetcode_15_3Sum/unittest/leetcode_15_unittest.py
+
+
+
+Running tests in src/leetcode_169_majorityElement
+Running test file src/leetcode_169_majorityElement/unittest/leetcode_169_unittest.py
+
+
+
+Running tests in src/leetcode_1_twoSum
+Running test file src/leetcode_1_twoSum/unittest/leetcode_1_unittest.py
+
+
+
+Running tests in src/leetcode_206_reverseLinkedlist
+Running test file src/leetcode_206_reverseLinkedlist/unittest/leetcode_206_unittest.py
+
+
+
+Running tests in src/leetcode_20_validParentheses
+Running test file src/leetcode_20_validParentheses/unittest/leetcode_20_unittest.py
+
+
+
+Running tests in src/leetcode_217_ContainsDuplicate
+Running test file src/leetcode_217_ContainsDuplicate/unittest/leetcode_217_unittest.py
+
+
+
+Running tests in src/leetcode_21_MergeTwoSortedLists
+Running test file src/leetcode_21_MergeTwoSortedLists/unittest/leetcode_21_unittest.py
+
+
+
+Running tests in src/leetcode_226_invertBinaryTree
+Running test file src/leetcode_226_invertBinaryTree/unittest/leetcode_226_unittest.py
+
+
+
+Running tests in src/leetcode_232_implementQueueUsingStacks
+Running test file src/leetcode_232_implementQueueUsingStacks/unittest/leetcode_232_unittest.py
+
+
+
+Running tests in src/leetcode_235_lowestCommonAncestorOfBinarySearchTree
+Running test file src/leetcode_235_lowestCommonAncestorOfBinarySearchTree/unittest/leetcode_235_unittest.py
+
+
+
+Running tests in src/leetcode_242_validAnagram
+Running test file src/leetcode_242_validAnagram/unittest/leetcode_242_unittest.py
+
+
+
+Running tests in src/leetcode_278_firstBadVersion
+Running test file src/leetcode_278_firstBadVersion/unittest/leetcode_278_unittest.py
+
+
+
+Running tests in src/leetcode_383_ransomNote
+Running test file src/leetcode_383_ransomNote/unittest/leetcode_383_unittest.py
+
+
+
+Running tests in src/leetcode_3_longestSubstringWithoutRepeatingCharacters
+Running test file src/leetcode_3_longestSubstringWithoutRepeatingCharacters/unittest/leetcode_3_unittest.py
+
+
+
+Running tests in src/leetcode_409_longestPalindrome
+Running test file src/leetcode_409_longestPalindrome/unittest/leetcode_409_unittest.py
+
+
+
+Running tests in src/leetcode_53_maximumSubarray
+Running test file src/leetcode_53_maximumSubarray/unittest/leetcode_53_unittest.py
+
+
+
+Running tests in src/leetcode_542_01Matrix
+Running test file src/leetcode_542_01Matrix/unittest/leetcode_542_unittest.py
+
+
+
+Running tests in src/leetcode_543_diameterOfABinaryTree
+Running test file src/leetcode_543_diameterOfABinaryTree/unittest/leetcode_543_unittest.py
+
+
+
+Running tests in src/leetcode_57_insertInterval
+Running test file src/leetcode_57_insertInterval/unittest/leetcode_57_unittest.py
+
+
+
+Running tests in src/leetcode_67_addBinary
+Running test file src/leetcode_67_addBinary/unittest/leetcode_67_unittest.py
+
+
+
+Running tests in src/leetcode_704_binarySearch
+Running test file src/leetcode_704_binarySearch/unittest/leetcode_704_unittest.py
+
+
+
+Running tests in src/leetcode_70_climbingStairs
+Running test file src/leetcode_70_climbingStairs/unittest/leetcode_70_unittest.py
+
+
+
+Running tests in src/leetcode_733_floodFill
+Running test file src/leetcode_733_floodFill/unittest/leetcode_733_unittest.py
+
+
+
+Running tests in src/leetcode_876_middleOfTheLinkedList
+Running test file src/leetcode_876_middleOfTheLinkedList/unittest/leetcode_876_unittest.py
+
+
+
+Running tests in src/leetcode_973_KClosestPointsToOrigin
+Running test file src/leetcode_973_KClosestPointsToOrigin/unittest/leetcode_973_unittest.py
+
+
+
