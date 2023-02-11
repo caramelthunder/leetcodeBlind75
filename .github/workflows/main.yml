@@ -35,13 +35,19 @@ jobs:
 
         # Loop through each folder
         for folder in src/leetcode_*
+        test_file= $folder/unittest/*_unittest.py
         do
             # Run the *_unittest.py script and redirect the output to the log file
             echo "Running tests in $folder" >> $log_file
-            for test_file in $folder/unittest/*_unittest.py; do
-              output=$(python -u $test_file)
-              echo "$output" >> $log_file
-            done
+            echo "Running test file $test_file" >> $log_file
+            output=$(python -u $test_file)
+            echo "$output" >> $log_file
+
+            # for test_file in $folder/unittest/*_unittest.py; do
+            #   output=$(python -u $test_file)
+            #   echo "$output" >> $log_file
+            #done
+            
             echo "" >> $log_file
         done
 
