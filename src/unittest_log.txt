@@ -128,7 +128,7 @@ OK
 Running test file src/leetcode_242_validAnagram/unittest/leetcode_242_unittest.py
 .......
 ----------------------------------------------------------------------
-Ran 7 tests in 0.000s
+Ran 7 tests in 0.001s
 
 OK
 
@@ -142,7 +142,7 @@ OK
 Running test file src/leetcode_383_ransomNote/unittest/leetcode_383_unittest.py
 ........
 ----------------------------------------------------------------------
-Ran 8 tests in 0.025s
+Ran 8 tests in 0.028s
 
 OK
 
@@ -170,7 +170,7 @@ OK
 Running test file src/leetcode_542_01Matrix/unittest/leetcode_542_unittest.py
 ....
 ----------------------------------------------------------------------
-Ran 4 tests in 0.000s
+Ran 4 tests in 0.001s
 
 OK
 
