@@ -14,8 +14,8 @@ class UpdateReadmeFile:
         '2': 'Medium',
         '3': 'Hard'
     }
-    GITHUB_BASE_URL = 'https://github.com/caramelthunder/leetcodeBlind75/tree/{}/src/'.format(BRANCH)
-    GITHUB_QUICKLINKS = 'https://github.com/caramelthunder/leetcodeBlind75/tree/{}#'.format(BRANCH)
+    GITHUB_BASE_URL = 'https://github.com/caramelthunder/leetcodeBlind75/tree/main/src/'.format(BRANCH)
+    GITHUB_QUICKLINKS = 'https://github.com/caramelthunder/leetcodeBlind75/tree/main#'.format(BRANCH)
     ROW_TEMPLATES = {
         1 : '|{}|[{}]({})|**{}**|[Solution]({}{}/solutions/{})|[Test]({}{}/unittest/{})|\n',
         2 : '|{}|[{}]({})|**{}**|[Sol 1]({}{}/solutions/{}), [Sol 2]({}{}/solutions/{})|[Test]({}{}/unittest/{})|\n',
@@ -23,8 +23,6 @@ class UpdateReadmeFile:
     }
 
     def __init__(self, filename):
-        # print('----The current branch is'.format(BRANCH))
-        # print('----The current working Dir is'.format(os.getcwd()))
         self.filename = filename
         self.index = {}
         self.scan_folders()
@@ -41,8 +39,6 @@ class UpdateReadmeFile:
         return folders
 
     def get_metadada(self, folder, dir= os.getcwd()) -> dict:
-        # print('---Getting ' + dir + '/src/' + folder + '/.metadata.json')
-        # print(os.listdir(dir + '/src/' + folder))
         metadata = {}
         try:
             with open(dir + '/src/' + folder + '/.metadata.json', 'r') as f:

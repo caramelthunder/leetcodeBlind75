@@ -58,7 +58,7 @@ OK
 Running test file src/leetcode_15_3Sum/unittest/leetcode_15_unittest.py
 ....
 ----------------------------------------------------------------------
-Ran 4 tests in 0.000s
+Ran 4 tests in 0.001s
 
 OK
 
@@ -142,7 +142,7 @@ OK
 Running test file src/leetcode_383_ransomNote/unittest/leetcode_383_unittest.py
 ........
 ----------------------------------------------------------------------
-Ran 8 tests in 0.028s
+Ran 8 tests in 0.031s
 
 OK
 
@@ -226,7 +226,7 @@ OK
 Running test file src/leetcode_973_KClosestPointsToOrigin/unittest/leetcode_973_unittest.py
 .....
 ----------------------------------------------------------------------
-Ran 5 tests in 0.000s
+Ran 5 tests in 0.001s
 
 OK
 
