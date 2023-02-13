@@ -2,5 +2,5 @@
     "name": "Course Schedule",
     "level": "2",
     "leetcode_url": "https://leetcode.com/problems/course-schedule/",
-    "topics": ["Graph", "Topological Sort", "Breadth-First Search", "Depth-First Search"]
+    "topics": ["Graph", "Topological Sort", "Depth-First Search"]
 }
