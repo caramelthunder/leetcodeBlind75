@@ -90,6 +90,13 @@ Ran 8 tests in 0.000s
 
 OK
 
+Running test file src/leetcode_208_implementTrie/unittest/leetcode_208_unittest.py
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.002s
+
+OK
+
 Running test file src/leetcode_20_validParentheses/unittest/leetcode_20_unittest.py
 .....
 ----------------------------------------------------------------------
@@ -177,7 +184,7 @@ OK
 Running test file src/leetcode_542_01Matrix/unittest/leetcode_542_unittest.py
 ....
 ----------------------------------------------------------------------
-Ran 4 tests in 0.000s
+Ran 4 tests in 0.001s
 
 OK
 
