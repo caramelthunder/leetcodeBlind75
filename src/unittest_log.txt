@@ -184,7 +184,7 @@ OK
 Running test file src/leetcode_542_01Matrix/unittest/leetcode_542_unittest.py
 ....
 ----------------------------------------------------------------------
-Ran 4 tests in 0.001s
+Ran 4 tests in 0.000s
 
 OK
 
