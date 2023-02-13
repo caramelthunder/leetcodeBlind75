@@ -1,0 +1,6 @@
+{
+    "name": "Implement Trie (Prefix Tree)",
+    "level": "2",
+    "leetcode_url": "https://leetcode.com/problems/implement-trie-prefix-tree/",
+    "topics": ["Hash Table", "String", "Trie", "Design"]
+}
