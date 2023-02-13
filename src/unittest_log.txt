@@ -58,7 +58,7 @@ OK
 Running test file src/leetcode_15_3Sum/unittest/leetcode_15_unittest.py
 ....
 ----------------------------------------------------------------------
-Ran 4 tests in 0.001s
+Ran 4 tests in 0.000s
 
 OK
 
@@ -80,6 +80,13 @@ Running test file src/leetcode_206_reverseLinkedlist/unittest/leetcode_206_unitt
 ....
 ----------------------------------------------------------------------
 Ran 4 tests in 0.000s
+
+OK
+
+Running test file src/leetcode_207_courseSchedule/unittest/leetcode_207_unittest.py
+........
+----------------------------------------------------------------------
+Ran 8 tests in 0.000s
 
 OK
 
@@ -142,7 +149,7 @@ OK
 Running test file src/leetcode_383_ransomNote/unittest/leetcode_383_unittest.py
 ........
 ----------------------------------------------------------------------
-Ran 8 tests in 0.031s
+Ran 8 tests in 0.026s
 
 OK
 
@@ -170,7 +177,7 @@ OK
 Running test file src/leetcode_542_01Matrix/unittest/leetcode_542_unittest.py
 ....
 ----------------------------------------------------------------------
-Ran 4 tests in 0.001s
+Ran 4 tests in 0.000s
 
 OK
 
@@ -226,7 +233,7 @@ OK
 Running test file src/leetcode_973_KClosestPointsToOrigin/unittest/leetcode_973_unittest.py
 .....
 ----------------------------------------------------------------------
-Ran 5 tests in 0.001s
+Ran 5 tests in 0.000s
 
 OK
 
