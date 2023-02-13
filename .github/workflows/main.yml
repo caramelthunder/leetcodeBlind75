@@ -37,7 +37,9 @@ jobs:
         do
           for test_file in $folder/unittest/*_unittest.py; 
           do
-            echo "$(date): Running test file $test_file" >> $log_file
+            TZ=America/New_York 
+            date=$(date)
+            echo "$date: Running test file $test_file" >> $log_file
             output=$(python -u $test_file 2>&1)
             echo "$output" >> $log_file
           done
