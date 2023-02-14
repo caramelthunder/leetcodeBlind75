@@ -1,0 +1,6 @@
+{
+    "name": "Coin Change",
+    "level": "2",
+    "leetcode_url": "https://leetcode.com/problems/coin-change/",
+    "topics": ["Dynamic Programming", "Breadth-First Search"]
+}
