@@ -1,0 +1,6 @@
+{
+    "name": "Product of Array Except Self",
+    "level": "2",
+    "leetcode_url": "https://leetcode.com/problems/product-of-array-except-self/description/",
+    "topics": ["Array", "Prefix Sum"]
+}
