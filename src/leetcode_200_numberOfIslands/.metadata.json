@@ -1,0 +1,6 @@
+{
+    "name": "Number of Islands",
+    "level": "2",
+    "leetcode_url": "https://leetcode.com/problems/number-of-islands/",
+    "topics": ["Breadth-First Search", "Depth-First Search", "Grid", "Graph", "Union Find"]
+}
