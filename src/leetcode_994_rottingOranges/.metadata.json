@@ -1,0 +1,6 @@
+{
+    "name": "Rotting Oranges",
+    "level": "2",
+    "leetcode_url": "https://leetcode.com/problems/rotting-oranges/",
+    "topics": ["Grid", "Breadth-First Search", "Graph"]
+}

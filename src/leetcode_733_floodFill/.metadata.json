@@ -2,5 +2,5 @@
     "name": "Flood Fill",
     "level": "1",
     "leetcode_url": "https://leetcode.com/problems/flood-fill/",
-    "topics": ["Grid", "Depth-First Search", "Breadth-First Search"]
+    "topics": ["Grid", "Depth-First Search", "Breadth-First Search", "Graph"]
 }
