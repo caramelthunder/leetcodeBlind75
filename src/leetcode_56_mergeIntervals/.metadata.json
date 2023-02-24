@@ -1,0 +1,6 @@
+{
+    "name": "Merge Intervals",
+    "level": "2",
+    "leetcode_url": "https://leetcode.com/problems/merge-intervals/description/",
+    "topics": ["Array", "Sorting"]
+}
