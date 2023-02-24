@@ -1,0 +1,6 @@
+{
+    "name": "Lowest Common Ancestor of a Binary Tree",
+    "level": "2",
+    "leetcode_url": "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/",
+    "topics": ["Tree", "Depth-First Search", "Binary Tree", "Recursion"]
+}
