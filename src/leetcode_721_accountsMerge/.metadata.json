@@ -1,0 +1,6 @@
+{
+    "name": "Accounts Merge",
+    "level": "2",
+    "leetcode_url": "https://leetcode.com/problems/accounts-merge/",
+    "topics": ["Graph", "Union Find", "Depth-First Search", "Breadth-First Search"]
+}
