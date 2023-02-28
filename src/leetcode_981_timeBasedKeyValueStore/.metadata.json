@@ -1,0 +1,6 @@
+{
+    "name": "Time Based Key-Value Store",
+    "level": "2",
+    "leetcode_url": "https://leetcode.com/problems/time-based-key-value-store/description/",
+    "topics": ["Design", "Hash Table", "Binary Search"]
+}
