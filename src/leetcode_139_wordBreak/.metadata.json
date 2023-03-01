@@ -1,0 +1,6 @@
+{
+    "name": "Word Break",
+    "level": "2",
+    "leetcode_url": "https://leetcode.com/problems/word-break/",
+    "topics": ["String", "Dynamic Programming"]
+}
