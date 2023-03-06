@@ -1,0 +1,6 @@
+{
+    "name": "Longest Increasing Subsequence",
+    "level": "2",
+    "leetcode_url": "https://leetcode.com/problems/longest-increasing-subsequence/",
+    "topics": ["Array", "Dynamic Programming", "Binary Search"]
+}
