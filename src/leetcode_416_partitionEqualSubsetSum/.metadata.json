@@ -1,0 +1,6 @@
+{
+    "name": "Partition Equal Subset Sum",
+    "level": "2",
+    "leetcode_url": "https://leetcode.com/problems/partition-equal-subset-sum/",
+    "topics": ["Array", "Dynamic Programming"]
+}
