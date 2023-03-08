@@ -1,0 +1,6 @@
+{
+    "name": "Binary Tree Right Side View",
+    "level": "2",
+    "leetcode_url": "https://leetcode.com/problems/binary-tree-right-side-view/",
+    "topics": ["Tree", "Binary Tree", "Depth-First Search", "Breadth-First Search"]
+}
