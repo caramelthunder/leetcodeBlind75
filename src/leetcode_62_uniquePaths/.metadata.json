@@ -1,0 +1,6 @@
+{
+    "name": "Unique Paths",
+    "level": "2",
+    "leetcode_url": "https://leetcode.com/problems/unique-paths/",
+    "topics": ["Grid", "Dynamic Programming"]
+}
