@@ -59,7 +59,7 @@ class Test(unittest.TestCase):
     def test_example_4(self):
         preorder = [1,2]
         inorder = [1,2]
-        expected_output = [1]
+        expected_output = [1,None,2]
 
         tree = self.solution1.buildTree(preorder, inorder)
         actual_output = self.treeHelper.tree_to_arr(tree)
