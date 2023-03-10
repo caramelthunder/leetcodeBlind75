@@ -1,0 +1,6 @@
+{
+    "name": "Largest Divisible Subset",
+    "level": "2",
+    "leetcode_url": "https://leetcode.com/problems/largest-divisible-subset/",
+    "topics": ["Array", "Dynamic Programming", "Sorting"]
+}
