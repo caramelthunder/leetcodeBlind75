@@ -1,0 +1,6 @@
+{
+    "name": "Perfect Squares",
+    "level": "2",
+    "leetcode_url": "https://leetcode.com/problems/perfect-squares/description/",
+    "topics": ["Dynamic Programming", "Breadth-First Search"]
+}
