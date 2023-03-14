@@ -1,0 +1,6 @@
+{
+    "name": "Letter Combinations of a Phone Number",
+    "level": "2",
+    "leetcode_url": "https://leetcode.com/problems/letter-combinations-of-a-phone-number/",
+    "topics": ["Backtracking"]
+}
