@@ -1,0 +1,6 @@
+{
+    "name": "Word Search",
+    "level": "2",
+    "leetcode_url": "https://leetcode.com/problems/word-search/",
+    "topics": ["Grid", "Depth-First Search", "Backtracking"]
+}
