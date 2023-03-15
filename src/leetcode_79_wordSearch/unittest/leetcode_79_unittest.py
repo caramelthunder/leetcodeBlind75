@@ -1,6 +1,7 @@
 import sys
 import os
 import unittest
+import copy
 
 current = os.path.dirname(os.path.realpath(__file__))
 parent = os.path.dirname(current)
@@ -17,69 +18,69 @@ class Test(unittest.TestCase):
         self.solution2 = Solution2()
         self.solution3 = Solution3()
 
-    # def test_example_1(self):
-    #     inputs = (
-    #         [["A","B","C","E"], ["S","F","C","S"], ["A","D","E","E"]],
-    #         "ABCCED"
-    #     )
-    #     expected_output = True
+    def test_example_1(self):
+        inputs = (
+            [["A","B","C","E"], ["S","F","C","S"], ["A","D","E","E"]],
+            "ABCCED"
+        )
+        expected_output = True
 
-    #     actual_output = self.solution1.exist(*inputs)
-    #     self.assertEqual(actual_output, expected_output)
+        actual_output = self.solution1.exist(*copy.deepcopy(inputs))
+        self.assertEqual(actual_output, expected_output)
 
-    #     actual_output = self.solution2.exist(*inputs)
-    #     self.assertEqual(actual_output, expected_output)
+        actual_output = self.solution2.exist(*copy.deepcopy(inputs))
+        self.assertEqual(actual_output, expected_output)
 
-    #     actual_output = self.solution3.exist(*inputs)
-    #     self.assertEqual(actual_output, expected_output)
+        actual_output = self.solution3.exist(*copy.deepcopy(inputs))
+        self.assertEqual(actual_output, expected_output)
     
-    # def test_example_2(self):
-    #     inputs = (
-    #         [["A","B","C","E"],["S","F","C","S"],["A","D","E","E"]], 
-    #         "SEE"
-    #     )
-    #     expected_output = True
+    def test_example_2(self):
+        inputs = (
+            [["A","B","C","E"],["S","F","C","S"],["A","D","E","E"]], 
+            "SEE"
+        )
+        expected_output = True
 
-    #     actual_output = self.solution1.exist(*inputs)
-    #     self.assertEqual(actual_output, expected_output)
+        actual_output = self.solution1.exist(*copy.deepcopy(inputs))
+        self.assertEqual(actual_output, expected_output)
 
-    #     actual_output = self.solution2.exist(*inputs)
-    #     self.assertEqual(actual_output, expected_output)
+        actual_output = self.solution2.exist(*copy.deepcopy(inputs))
+        self.assertEqual(actual_output, expected_output)
 
-    #     actual_output = self.solution3.exist(*inputs)
-    #     self.assertEqual(actual_output, expected_output)
+        actual_output = self.solution3.exist(*copy.deepcopy(inputs))
+        self.assertEqual(actual_output, expected_output)
     
-    # def test_example_3(self):
-    #     inputs = (
-    #         [["A","B","C","E"],["S","F","C","S"],["A","D","E","E"]], 
-    #         "ABCB"
-    #     )
-    #     expected_output = False
+    def test_example_3(self):
+        inputs = (
+            [["A","B","C","E"],["S","F","C","S"],["A","D","E","E"]], 
+            "ABCB"
+        )
+        expected_output = False
 
-    #     actual_output = self.solution1.exist(*inputs)
-    #     self.assertEqual(actual_output, expected_output)
+        actual_output = self.solution1.exist(*copy.deepcopy(inputs))
+        self.assertEqual(actual_output, expected_output)
 
-    #     actual_output = self.solution2.exist(*inputs)
-    #     self.assertEqual(actual_output, expected_output)
+        actual_output = self.solution2.exist(*copy.deepcopy(inputs))
+        self.assertEqual(actual_output, expected_output)
 
-    #     actual_output = self.solution3.exist(*inputs)
-    #     self.assertEqual(actual_output, expected_output)
+        actual_output = self.solution3.exist(*copy.deepcopy(inputs))
+        self.assertEqual(actual_output, expected_output)
 
-    # def test_example_4(self):
-    #     inputs = (
-    #         [["A","B","C","E"],["S","F","C","S"],["A","D","E","E"]],
-    #         "SEE"
-    #     )
-    #     expected_output = True
+    def test_example_4(self):
+        inputs = (
+            [["A","B","C","E"],["S","F","C","S"],["A","D","E","E"]],
+            "SEE"
+        )
+        expected_output = True
 
-    #     actual_output = self.solution1.exist(*inputs)
-    #     self.assertEqual(actual_output, expected_output)
+        actual_output = self.solution1.exist(*copy.deepcopy(inputs))
+        self.assertEqual(actual_output, expected_output)
 
-    #     actual_output = self.solution2.exist(*inputs)
-    #     self.assertEqual(actual_output, expected_output)
+        actual_output = self.solution2.exist(*copy.deepcopy(inputs))
+        self.assertEqual(actual_output, expected_output)
 
-    #     actual_output = self.solution3.exist(*inputs)
-    #     self.assertEqual(actual_output, expected_output)
+        actual_output = self.solution3.exist(*copy.deepcopy(inputs))
+        self.assertEqual(actual_output, expected_output)
 
     def test_example_5(self):
         inputs = (
@@ -88,47 +89,46 @@ class Test(unittest.TestCase):
         )
         expected_output = True
 
-        actual_output = self.solution1.exist(*inputs)
+        actual_output = self.solution1.exist(*copy.deepcopy(inputs))
         self.assertEqual(actual_output, expected_output)
 
-        actual_output = self.solution2.exist(*inputs)
+        actual_output = self.solution2.exist(*copy.deepcopy(inputs))
         self.assertEqual(actual_output, expected_output)
 
-        actual_output = self.solution3.exist(*inputs)
+        actual_output = self.solution3.exist(*copy.deepcopy(inputs))
         self.assertEqual(actual_output, expected_output)
     
-    # def test_example_6(self):
-    #     inputs = (
-    #         [["A","B","C","E"],["S","F","C","S"],["A","D","E","E"]],
-    #         "ABCB"
-    #     )
-    #     expected_output = False
+    def test_example_6(self):
+        inputs = (
+            [["A","B","C","E"],["S","F","C","S"],["A","D","E","E"]],
+            "ABCB"
+        )
+        expected_output = False
 
-    #     actual_output = self.solution1.exist(*inputs)
-    #     self.assertEqual(actual_output, expected_output)
+        actual_output = self.solution1.exist(*copy.deepcopy(inputs))
+        self.assertEqual(actual_output, expected_output)
 
-    #     actual_output = self.solution2.exist(*inputs)
-    #     self.assertEqual(actual_output, expected_output)
+        actual_output = self.solution2.exist(*copy.deepcopy(inputs))
+        self.assertEqual(actual_output, expected_output)
 
-    #     actual_output = self.solution3.exist(*inputs)
-    #     self.assertEqual(actual_output, expected_output)
+        actual_output = self.solution3.exist(*copy.deepcopy(inputs))
+        self.assertEqual(actual_output, expected_output)
     
-    # def test_example_7(self):
-    #     inputs = (
-    #         [["A"]],
-    #         "A"
-    #     )
-    #     expected_output = True
+    def test_example_7(self):
+        inputs = (
+            [["A"]],
+            "A"
+        )
+        expected_output = True
 
-    #     actual_output = self.solution1.exist(*inputs)
-    #     self.assertEqual(actual_output, expected_output)
+        actual_output = self.solution1.exist(*copy.deepcopy(inputs))
+        self.assertEqual(actual_output, expected_output)
 
-    #     actual_output = self.solution2.exist(*inputs)
-    #     self.assertEqual(actual_output, expected_output)
+        actual_output = self.solution2.exist(*copy.deepcopy(inputs))
+        self.assertEqual(actual_output, expected_output)
 
-    #     actual_output = self.solution3.exist(*inputs)
-    #     self.assertEqual(actual_output, expected_output)
-
+        actual_output = self.solution3.exist(*copy.deepcopy(inputs))
+        self.assertEqual(actual_output, expected_output)
 
 
 ######################################
