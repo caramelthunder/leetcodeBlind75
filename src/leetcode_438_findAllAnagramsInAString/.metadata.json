@@ -1,0 +1,6 @@
+{
+    "name": "Find All Anagrams in a String",
+    "level": "2",
+    "leetcode_url": "https://leetcode.com/problems/find-all-anagrams-in-a-string/",
+    "topics": ["String", "Hash Table", "Sliding Window"]
+}
