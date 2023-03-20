@@ -1,0 +1,6 @@
+{
+    "name": "Minimum Height Trees",
+    "level": "2",
+    "leetcode_url": "https://leetcode.com/problems/minimum-height-trees/",
+    "topics": ["Graph", "Topological Sort", "Breadth-First Search"]
+}
