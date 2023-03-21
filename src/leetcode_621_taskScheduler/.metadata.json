@@ -1,0 +1,6 @@
+{
+    "name": "Task Scheduler",
+    "level": "2",
+    "leetcode_url": "https://leetcode.com/problems/task-scheduler/description/",
+    "topics": ["Heap (Priority Queue)", "Hash Table", "Greedy"]
+}
