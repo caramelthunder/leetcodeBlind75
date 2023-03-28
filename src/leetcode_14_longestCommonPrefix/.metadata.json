@@ -1,0 +1,6 @@
+{
+    "name": "Longest Common Prefix",
+    "level": "1",
+    "leetcode_url": "https://leetcode.com/problems/longest-common-prefix/description/",
+    "topics": ["String", "Trie"]
+}
