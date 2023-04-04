@@ -1,0 +1,6 @@
+{
+    "name": "Parallel Courses III",
+    "level": "3",
+    "leetcode_url": "https://leetcode.com/problems/parallel-courses-iii/description/",
+    "topics": ["Graph", "Dynamic Programming", "Topological Sort"]
+}
