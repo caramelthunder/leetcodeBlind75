@@ -1,0 +1,6 @@
+{
+    "name": "Alien Dictionary",
+    "level": "3",
+    "leetcode_url": "https://leetcode.com/problems/alien-dictionary/",
+    "topics": ["Graph", "Topological Sort", "Breadth-First Search"]
+}
