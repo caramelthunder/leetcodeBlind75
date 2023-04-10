@@ -31,12 +31,11 @@ class Solution:
         stack = []
         # Traverse the array from right to left
         for i in range(n - 1, -1, -1):
+            # Find the possible second (mid_val) and third (max_val) elements of the 132 pattern
+            max_num = nums[i]
+            min_num = prefix_min[i]
 
-            if nums[i] > prefix_min[i]:
-                # Find the possible second (mid_val) and third (max_val) elements of the 132 pattern
-                max_num = nums[i]
-                min_num = prefix_min[i]
-
+            if max_num > min_num:
                 # Pop elements from the stack that are less than or equal to the minimum value
                 # They cannot be the third element in the 132 pattern
                 while stack and stack[-1] <= min_num:
