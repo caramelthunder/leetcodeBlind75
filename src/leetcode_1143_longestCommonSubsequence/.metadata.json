@@ -1,0 +1,6 @@
+{
+    "name": "Longest Common Subsequence",
+    "level": "2",
+    "leetcode_url": "https://leetcode.com/problems/longest-common-subsequence/description/",
+    "topics": ["Dynamic Programming"]
+}
