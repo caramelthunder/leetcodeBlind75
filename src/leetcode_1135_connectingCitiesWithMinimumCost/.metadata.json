@@ -1,0 +1,6 @@
+{
+    "name": "Connecting Cities With Minimum Cost",
+    "level": "2",
+    "leetcode_url": "https://leetcode.com/problems/connecting-cities-with-minimum-cost/",
+    "topics": ["Graph", "Union Find", "Minimum Spanning Tree", "Heap (Priority Queue)", "Sorting"]
+}
