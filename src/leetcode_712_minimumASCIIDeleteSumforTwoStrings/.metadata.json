@@ -1,0 +1,6 @@
+{
+    "name": "Minimum ASCII Delete Sum for Two Strings",
+    "level": "2",
+    "leetcode_url": "https://leetcode.com/problems/minimum-ascii-delete-sum-for-two-strings/description/",
+    "topics": ["Dynamic Programming"]
+}
