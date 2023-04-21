@@ -1,0 +1,6 @@
+{
+    "name": "Happy Number",
+    "level": "1",
+    "leetcode_url": "https://leetcode.com/problems/happy-number/",
+    "topics": ["Hash Table", "Two Pointers", "Math"]
+}
