@@ -1,0 +1,6 @@
+{
+    "name": "Minimum Window Substring",
+    "level": "3",
+    "leetcode_url": "https://leetcode.com/problems/minimum-window-substring/description/",
+    "topics": ["Hash Table", "String", "Sliding Window"]
+}
