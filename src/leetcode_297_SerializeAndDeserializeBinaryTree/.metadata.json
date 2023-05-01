@@ -1,0 +1,6 @@
+{
+    "name": "Serialize and Deserialize Binary Tree",
+    "level": "3",
+    "leetcode_url": "https://leetcode.com/problems/serialize-and-deserialize-binary-tree/",
+    "topics": ["Tree", "Binary Tree", "Depth-First Search", "Breadth-First Search", "Design"]
+}
