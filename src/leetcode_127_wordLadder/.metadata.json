@@ -1,0 +1,6 @@
+{
+    "name": "Word Ladder",
+    "level": "3",
+    "leetcode_url": "https://leetcode.com/problems/word-ladder/",
+    "topics": ["Graph", "Breadth-First Search", "Hash Table"]
+}
