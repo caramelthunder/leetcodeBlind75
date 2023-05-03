@@ -1,0 +1,6 @@
+{
+    "name": "Subarray Sum Equals K",
+    "level": "2",
+    "leetcode_url": "https://leetcode.com/problems/subarray-sum-equals-k/",
+    "topics": ["Hash Table", "Prefix Sum", "Array"]
+}
