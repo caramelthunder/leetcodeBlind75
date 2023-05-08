@@ -1,0 +1,6 @@
+{
+    "name": "Get The Maximum Score",
+    "level": "3",
+    "leetcode_url": "https://leetcode.com/problems/get-the-maximum-score/",
+    "topics": ["Prefix Sum", "Array", "Two Pointers", "Greedy"]
+}
