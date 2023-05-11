@@ -1,9 +1,11 @@
 from typing import Optional
 
+
 class ListNode:
     def __init__(self, val=None, next=None):
         self.val = val
         self.next = next
+
 
 class Solution:
     def removeNthFromEnd(self, head: Optional[ListNode], n: int) -> Optional[ListNode]:
@@ -15,16 +17,16 @@ class Solution:
             n (int): The position of the node to remove, counted from the end of the list.
 
         Returns:
-            Optional[ListNode]: The head of the modified linked list 
+            Optional[ListNode]: The head of the modified linked list
                                 after removing the n-th node from the end.
 
         Time Complexity Analysis:
-            O(L): Where L is the number of nodes in the linked list. 
-                  We traverse the list once with two pointers (slow, fast), 
+            O(L): Where L is the number of nodes in the linked list.
+                  We traverse the list once with two pointers (slow, fast),
                   maintaining a gap of n nodes between them. The time complexity is therefore linear.
 
         Space Complexity Analysis:
-            O(1): We only use a constant amount of extra space for 
+            O(1): We only use a constant amount of extra space for
                   the dummy ListNode and the two pointers (slow, fast).
         """
         dummy = ListNode(next=head)
