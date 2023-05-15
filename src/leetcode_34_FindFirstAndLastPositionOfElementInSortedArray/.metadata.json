@@ -1,0 +1,6 @@
+{
+    "name": "Find First and Last Position of Element in Sorted Array",
+    "level": "2",
+    "leetcode_url": "https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/",
+    "topics": ["Array", "Binary Search"]
+}
