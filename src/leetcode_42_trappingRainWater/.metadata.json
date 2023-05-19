@@ -1,0 +1,6 @@
+{
+    "name": "Trapping Rain Water",
+    "level": "3",
+    "leetcode_url": "https://leetcode.com/problems/trapping-rain-water/",
+    "topics": ["Array", "Stack", "Dynamic Programming", "Two Pointers"]
+}
