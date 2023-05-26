@@ -1,0 +1,6 @@
+{
+    "name": "Find Median from Data Stream",
+    "level": "3",
+    "leetcode_url": "https://leetcode.com/problems/find-median-from-data-stream/",
+    "topics": ["Heap (Priority Queue)", "Design"]
+}
