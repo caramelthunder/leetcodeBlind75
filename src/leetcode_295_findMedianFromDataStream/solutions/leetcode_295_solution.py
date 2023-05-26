@@ -1,9 +1,10 @@
 from heapq import heappop, heappush
 
+
 class MedianFinder:
     def __init__(self):
         """
-        Initialize the MedianFinder object with two heaps: 
+        Initialize the MedianFinder object with two heaps:
         - 'left' is a max heap for the smaller half of the numbers.
         - 'right' is a min heap for the larger half of the numbers.
         - 'even_len' is a boolean flag indicating if the total number of elements is even.
@@ -22,18 +23,18 @@ class MedianFinder:
         Time complexity: O(log n), where n is the number of elements added.
         Space complexity: O(1), not considering the space needed to store the elements.
         """
-        if not(self.left and self.right) or self.right[0] > num:
+        if not (self.left and self.right) or self.right[0] > num:
             heappush(self.left, -num)
         else:
             heappush(self.right, num)
         self._balance()
-    
+
     def findMedian(self) -> float:
         """
         Find the median of all elements.
 
         Returns:
-            float: The median of all elements. If the number of elements is even, 
+            float: The median of all elements. If the number of elements is even,
             it returns the average of the two middle elements.
 
         Time complexity: O(1)
@@ -55,4 +56,4 @@ class MedianFinder:
             heappush(self.left, -heappop(self.right))
         while len(self.left) > len(self.right) + 1:
             heappush(self.right, -heappop(self.left))
-        self.even_len = (len(self.left) == len(self.right))
+        self.even_len = len(self.left) == len(self.right)
