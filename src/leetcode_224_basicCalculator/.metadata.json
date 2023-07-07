@@ -1,0 +1,6 @@
+{
+    "name": "Basic Calculator",
+    "level": "3",
+    "leetcode_url": "https://leetcode.com/problems/basic-calculator/",
+    "topics": ["Stack", "String", "Math"]
+}
