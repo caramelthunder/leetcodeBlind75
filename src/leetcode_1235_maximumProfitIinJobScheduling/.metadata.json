@@ -1,0 +1,6 @@
+{
+    "name": "Maximum Profit in Job Scheduling",
+    "level": "3",
+    "leetcode_url": "https://leetcode.com/problems/maximum-profit-in-job-scheduling/description/",
+    "topics": ["Dynamic Programming", "Sorting", "Binary Search"]
+}
