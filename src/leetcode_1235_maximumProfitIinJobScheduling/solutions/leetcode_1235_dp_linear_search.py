@@ -23,7 +23,12 @@ class Solution:
             Time: O(n^2) - primarily due to the linear search in _job_search for each job.
             Space: O(n) - due to the 'jobs' list.
         """
-
+        # Error handling for inconsistent input lengths
+        if not (len(startTime) == len(endTime) == len(profit)):
+            raise ValueError("Input lists have inconsistent lengths.")
+        
+        # Helper function to perform a linear search 
+        # to find the last non-overlapping job before a given start time
         def _job_search(target_end_time, left, right):
             i = right - 1
             while left <= i:
@@ -36,14 +41,13 @@ class Solution:
         jobs = [(s, e, p) for s, e, p in zip(startTime, endTime, profit)]
         jobs.sort(key=lambda job: job[1])  # Sort by job end_time
 
+        max_profits = [job[2] for job in jobs]  # Separate list to store profits
+
         for i in range(1, len(jobs)):
-            curr_start_time, curr_end_time, profit = jobs[i]
-            last_non_overlap_job = (0, 0, 0)
+            curr_start_time, _, profit = jobs[i]
+            last_non_overlap_job = _job_search(curr_start_time, 0, i)
 
-            if (res := _job_search(curr_start_time, 0, i)) >= 0:
-                last_non_overlap_job = jobs[res]
+            last_profit = max_profits[last_non_overlap_job] if last_non_overlap_job >= 0 else 0
+            max_profits[i] = max(max_profits[i - 1], last_profit + profit)
 
-            max_profit = max(jobs[i - 1][2], last_non_overlap_job[2] + profit)
-            jobs[i] = (curr_start_time, curr_end_time, max_profit)
-
-        return jobs[-1][2]
+        return max_profits[-1] if max_profits else 0  # Handling the case of empty jobs
