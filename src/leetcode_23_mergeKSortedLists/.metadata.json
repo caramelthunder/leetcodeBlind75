@@ -1,0 +1,6 @@
+{
+    "name": "Merge k Sorted Lists",
+    "level": "3",
+    "leetcode_url": "https://leetcode.com/problems/merge-k-sorted-lists/",
+    "topics": ["Divide and Conquer", "Linked List", "Heap (Priority Queue)", "Sorting"]
+}
