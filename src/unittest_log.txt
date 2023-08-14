@@ -1,733 +1,740 @@
 
-Thu Aug 10 10:25:53 EDT 2023: Running test file src/leetcode_1029_twoCityScheduling/unittest/leetcode_1029_unittest.py
+Mon Aug 14 15:16:38 EDT 2023: Running test file src/leetcode_1029_twoCityScheduling/unittest/leetcode_1029_unittest.py
 .......
 ----------------------------------------------------------------------
 Ran 7 tests in 0.000s
 
 OK
 
-Thu Aug 10 10:25:53 EDT 2023: Running test file src/leetcode_102_binaryTreeLevelOrderTraversal/unittest/leetcode_102_unittest.py
+Mon Aug 14 15:16:38 EDT 2023: Running test file src/leetcode_102_binaryTreeLevelOrderTraversal/unittest/leetcode_102_unittest.py
 ...
 ----------------------------------------------------------------------
 Ran 3 tests in 0.000s
 
 OK
 
-Thu Aug 10 10:25:53 EDT 2023: Running test file src/leetcode_104_maximumDepthOfBinaryTree/unittest/leetcode_104_unittest.py
+Mon Aug 14 15:16:38 EDT 2023: Running test file src/leetcode_104_maximumDepthOfBinaryTree/unittest/leetcode_104_unittest.py
 ......
 ----------------------------------------------------------------------
 Ran 6 tests in 0.000s
 
 OK
 
-Thu Aug 10 10:25:53 EDT 2023: Running test file src/leetcode_105_constructBinaryTreefromPreorderandInorderTraversal/unittest/leetcode_105_unittest.py
+Mon Aug 14 15:16:38 EDT 2023: Running test file src/leetcode_105_constructBinaryTreefromPreorderandInorderTraversal/unittest/leetcode_105_unittest.py
 ....
 ----------------------------------------------------------------------
 Ran 4 tests in 0.000s
 
 OK
 
-Thu Aug 10 10:25:53 EDT 2023: Running test file src/leetcode_110_balancedBinaryTree/unittest/leetcode_110_unittest.py
+Mon Aug 14 15:16:38 EDT 2023: Running test file src/leetcode_110_balancedBinaryTree/unittest/leetcode_110_unittest.py
 ...
 ----------------------------------------------------------------------
 Ran 3 tests in 0.000s
 
 OK
 
-Thu Aug 10 10:25:53 EDT 2023: Running test file src/leetcode_1135_connectingCitiesWithMinimumCost/unittest/leetcode_1135_unittest.py
+Mon Aug 14 15:16:39 EDT 2023: Running test file src/leetcode_1135_connectingCitiesWithMinimumCost/unittest/leetcode_1135_unittest.py
 ...
 ----------------------------------------------------------------------
 Ran 3 tests in 0.000s
 
 OK
 
-Thu Aug 10 10:25:53 EDT 2023: Running test file src/leetcode_1143_longestCommonSubsequence/unittest/leetcode_1143_unittest.py
+Mon Aug 14 15:16:39 EDT 2023: Running test file src/leetcode_1143_longestCommonSubsequence/unittest/leetcode_1143_unittest.py
 ....
 ----------------------------------------------------------------------
-Ran 4 tests in 0.001s
+Ran 4 tests in 0.000s
 
 OK
 
-Thu Aug 10 10:25:53 EDT 2023: Running test file src/leetcode_1155_numberOfDiceRollsWithTargetSum/unittest/leetcode_1155_unittest.py
+Mon Aug 14 15:16:39 EDT 2023: Running test file src/leetcode_1155_numberOfDiceRollsWithTargetSum/unittest/leetcode_1155_unittest.py
 ....
 ----------------------------------------------------------------------
-Ran 4 tests in 0.279s
+Ran 4 tests in 0.278s
 
 OK
 
-Thu Aug 10 10:25:54 EDT 2023: Running test file src/leetcode_11_containerWithMostWater/unittest/leetcode_11_unittest.py
+Mon Aug 14 15:16:39 EDT 2023: Running test file src/leetcode_11_containerWithMostWater/unittest/leetcode_11_unittest.py
 ..
 ----------------------------------------------------------------------
 Ran 2 tests in 0.000s
 
 OK
 
-Thu Aug 10 10:25:54 EDT 2023: Running test file src/leetcode_121_bestTimeToBuyAndSellStock/unittest/leetcode_121_unittest.py
+Mon Aug 14 15:16:39 EDT 2023: Running test file src/leetcode_121_bestTimeToBuyAndSellStock/unittest/leetcode_121_unittest.py
 .....
 ----------------------------------------------------------------------
 Ran 5 tests in 0.000s
 
 OK
 
-Thu Aug 10 10:25:54 EDT 2023: Running test file src/leetcode_1235_maximumProfitIinJobScheduling/unittest/leetcode_1235_unittest.py
+Mon Aug 14 15:16:39 EDT 2023: Running test file src/leetcode_1235_maximumProfitIinJobScheduling/unittest/leetcode_1235_unittest.py
 ......
 ----------------------------------------------------------------------
 Ran 6 tests in 0.001s
 
 OK
 
-Thu Aug 10 10:25:54 EDT 2023: Running test file src/leetcode_125_validatePalindrome/unittest/leetcode_125_unittest.py
+Mon Aug 14 15:16:39 EDT 2023: Running test file src/leetcode_125_validatePalindrome/unittest/leetcode_125_unittest.py
 ....
 ----------------------------------------------------------------------
 Ran 4 tests in 0.000s
 
 OK
 
-Thu Aug 10 10:25:54 EDT 2023: Running test file src/leetcode_127_wordLadder/unittest/leetcode_127_unittest.py
+Mon Aug 14 15:16:39 EDT 2023: Running test file src/leetcode_127_wordLadder/unittest/leetcode_127_unittest.py
 ..
 ----------------------------------------------------------------------
 Ran 2 tests in 0.000s
 
 OK
 
-Thu Aug 10 10:25:54 EDT 2023: Running test file src/leetcode_133_cloneGraph/unittest/leetcode_133_unittest.py
+Mon Aug 14 15:16:39 EDT 2023: Running test file src/leetcode_133_cloneGraph/unittest/leetcode_133_unittest.py
 ...
 ----------------------------------------------------------------------
 Ran 3 tests in 0.000s
 
 OK
 
-Thu Aug 10 10:25:54 EDT 2023: Running test file src/leetcode_139_wordBreak/unittest/leetcode_139_unittest.py
+Mon Aug 14 15:16:39 EDT 2023: Running test file src/leetcode_139_wordBreak/unittest/leetcode_139_unittest.py
 ...
 ----------------------------------------------------------------------
 Ran 3 tests in 0.000s
 
 OK
 
-Thu Aug 10 10:25:54 EDT 2023: Running test file src/leetcode_141_linkedListCycle/unittest/leetcode_141_unittest.py
+Mon Aug 14 15:16:39 EDT 2023: Running test file src/leetcode_141_linkedListCycle/unittest/leetcode_141_unittest.py
 ...
 ----------------------------------------------------------------------
 Ran 3 tests in 0.000s
 
 OK
 
-Thu Aug 10 10:25:54 EDT 2023: Running test file src/leetcode_1466_ReorderRoutesToMakeAllPathsLeadToTheCityZero/unittest/leetcode_1466_unittest.py
+Mon Aug 14 15:16:40 EDT 2023: Running test file src/leetcode_1466_ReorderRoutesToMakeAllPathsLeadToTheCityZero/unittest/leetcode_1466_unittest.py
 ...
 ----------------------------------------------------------------------
 Ran 3 tests in 0.000s
 
 OK
 
-Thu Aug 10 10:25:54 EDT 2023: Running test file src/leetcode_146_lruCache/unittest/leetcode_146_unittest.py
+Mon Aug 14 15:16:40 EDT 2023: Running test file src/leetcode_146_lruCache/unittest/leetcode_146_unittest.py
 ....
 ----------------------------------------------------------------------
 Ran 4 tests in 0.000s
 
 OK
 
-Thu Aug 10 10:25:54 EDT 2023: Running test file src/leetcode_14_longestCommonPrefix/unittest/leetcode_14_unittest.py
+Mon Aug 14 15:16:40 EDT 2023: Running test file src/leetcode_14_longestCommonPrefix/unittest/leetcode_14_unittest.py
 .....
 ----------------------------------------------------------------------
 Ran 5 tests in 0.000s
 
 OK
 
-Thu Aug 10 10:25:54 EDT 2023: Running test file src/leetcode_150_evaluateReversePolishNotation/unittest/leetcode_150_unittest.py
+Mon Aug 14 15:16:40 EDT 2023: Running test file src/leetcode_150_evaluateReversePolishNotation/unittest/leetcode_150_unittest.py
 ...
 ----------------------------------------------------------------------
 Ran 3 tests in 0.000s
 
 OK
 
-Thu Aug 10 10:25:54 EDT 2023: Running test file src/leetcode_1537_getTheMaximumScore/unittest/leetcode_1537_unittest.py
+Mon Aug 14 15:16:40 EDT 2023: Running test file src/leetcode_1537_getTheMaximumScore/unittest/leetcode_1537_unittest.py
 ...
 ----------------------------------------------------------------------
 Ran 3 tests in 0.000s
 
 OK
 
-Thu Aug 10 10:25:55 EDT 2023: Running test file src/leetcode_155_minStack/unittest/leetcode_155_unittest.py
+Mon Aug 14 15:16:40 EDT 2023: Running test file src/leetcode_155_minStack/unittest/leetcode_155_unittest.py
 ...
 ----------------------------------------------------------------------
 Ran 3 tests in 0.000s
 
 OK
 
-Thu Aug 10 10:25:55 EDT 2023: Running test file src/leetcode_15_3Sum/unittest/leetcode_15_unittest.py
+Mon Aug 14 15:16:40 EDT 2023: Running test file src/leetcode_15_3Sum/unittest/leetcode_15_unittest.py
 ....
 ----------------------------------------------------------------------
 Ran 4 tests in 0.000s
 
 OK
 
-Thu Aug 10 10:25:55 EDT 2023: Running test file src/leetcode_169_majorityElement/unittest/leetcode_169_unittest.py
+Mon Aug 14 15:16:40 EDT 2023: Running test file src/leetcode_169_majorityElement/unittest/leetcode_169_unittest.py
 ...
 ----------------------------------------------------------------------
 Ran 3 tests in 0.000s
 
 OK
 
-Thu Aug 10 10:25:55 EDT 2023: Running test file src/leetcode_17_letterCombinationsOfAPhoneNumber/unittest/leetcode_17_unittest.py
+Mon Aug 14 15:16:40 EDT 2023: Running test file src/leetcode_17_letterCombinationsOfAPhoneNumber/unittest/leetcode_17_unittest.py
 ...
 ----------------------------------------------------------------------
 Ran 3 tests in 0.000s
 
 OK
 
-Thu Aug 10 10:25:55 EDT 2023: Running test file src/leetcode_199_binaryTreeRightSideView/unittest/leetcode_199_unittest.py
+Mon Aug 14 15:16:40 EDT 2023: Running test file src/leetcode_199_binaryTreeRightSideView/unittest/leetcode_199_unittest.py
 .....
 ----------------------------------------------------------------------
 Ran 5 tests in 0.000s
 
 OK
 
-Thu Aug 10 10:25:55 EDT 2023: Running test file src/leetcode_19_removeNthNodeFromEndOfList/unittest/leetcode_19_unittest.py
+Mon Aug 14 15:16:40 EDT 2023: Running test file src/leetcode_19_removeNthNodeFromEndOfList/unittest/leetcode_19_unittest.py
 ....
 ----------------------------------------------------------------------
 Ran 4 tests in 0.000s
 
 OK
 
-Thu Aug 10 10:25:55 EDT 2023: Running test file src/leetcode_1_twoSum/unittest/leetcode_1_unittest.py
+Mon Aug 14 15:16:40 EDT 2023: Running test file src/leetcode_1_twoSum/unittest/leetcode_1_unittest.py
 .....
 ----------------------------------------------------------------------
 Ran 5 tests in 0.000s
 
 OK
 
-Thu Aug 10 10:25:55 EDT 2023: Running test file src/leetcode_200_numberOfIslands/unittest/leetcode_200_unittest.py
+Mon Aug 14 15:16:40 EDT 2023: Running test file src/leetcode_200_numberOfIslands/unittest/leetcode_200_unittest.py
 ..
 ----------------------------------------------------------------------
 Ran 2 tests in 0.000s
 
 OK
 
-Thu Aug 10 10:25:55 EDT 2023: Running test file src/leetcode_202_happyNumber/unittest/leetcode_202_unittest.py
+Mon Aug 14 15:16:40 EDT 2023: Running test file src/leetcode_202_happyNumber/unittest/leetcode_202_unittest.py
 ..
 ----------------------------------------------------------------------
 Ran 2 tests in 0.000s
 
 OK
 
-Thu Aug 10 10:25:55 EDT 2023: Running test file src/leetcode_2050_parallelCoursesIII/unittest/leetcode_2050_unittest.py
+Mon Aug 14 15:16:40 EDT 2023: Running test file src/leetcode_2050_parallelCoursesIII/unittest/leetcode_2050_unittest.py
 ...
 ----------------------------------------------------------------------
 Ran 3 tests in 0.000s
 
 OK
 
-Thu Aug 10 10:25:55 EDT 2023: Running test file src/leetcode_206_reverseLinkedlist/unittest/leetcode_206_unittest.py
+Mon Aug 14 15:16:40 EDT 2023: Running test file src/leetcode_206_reverseLinkedlist/unittest/leetcode_206_unittest.py
 ....
 ----------------------------------------------------------------------
 Ran 4 tests in 0.000s
 
 OK
 
-Thu Aug 10 10:25:55 EDT 2023: Running test file src/leetcode_207_courseSchedule/unittest/leetcode_207_unittest.py
+Mon Aug 14 15:16:41 EDT 2023: Running test file src/leetcode_207_courseSchedule/unittest/leetcode_207_unittest.py
 ........
 ----------------------------------------------------------------------
 Ran 8 tests in 0.001s
 
 OK
 
-Thu Aug 10 10:25:55 EDT 2023: Running test file src/leetcode_208_implementTrie/unittest/leetcode_208_unittest.py
+Mon Aug 14 15:16:41 EDT 2023: Running test file src/leetcode_208_implementTrie/unittest/leetcode_208_unittest.py
 ......
 ----------------------------------------------------------------------
 Ran 6 tests in 0.002s
 
 OK
 
-Thu Aug 10 10:25:55 EDT 2023: Running test file src/leetcode_20_validParentheses/unittest/leetcode_20_unittest.py
+Mon Aug 14 15:16:41 EDT 2023: Running test file src/leetcode_20_validParentheses/unittest/leetcode_20_unittest.py
 .....
 ----------------------------------------------------------------------
 Ran 5 tests in 0.000s
 
 OK
 
-Thu Aug 10 10:25:55 EDT 2023: Running test file src/leetcode_217_ContainsDuplicate/unittest/leetcode_217_unittest.py
+Mon Aug 14 15:16:41 EDT 2023: Running test file src/leetcode_217_ContainsDuplicate/unittest/leetcode_217_unittest.py
 ...
 ----------------------------------------------------------------------
 Ran 3 tests in 0.000s
 
 OK
 
-Thu Aug 10 10:25:56 EDT 2023: Running test file src/leetcode_21_MergeTwoSortedLists/unittest/leetcode_21_unittest.py
+Mon Aug 14 15:16:41 EDT 2023: Running test file src/leetcode_21_MergeTwoSortedLists/unittest/leetcode_21_unittest.py
 ....
 ----------------------------------------------------------------------
 Ran 4 tests in 0.000s
 
 OK
 
-Thu Aug 10 10:25:56 EDT 2023: Running test file src/leetcode_224_basicCalculator/unittest/leetcode_224_unittest.py
+Mon Aug 14 15:16:41 EDT 2023: Running test file src/leetcode_224_basicCalculator/unittest/leetcode_224_unittest.py
 ......
 ----------------------------------------------------------------------
 Ran 6 tests in 0.000s
 
 OK
 
-Thu Aug 10 10:25:56 EDT 2023: Running test file src/leetcode_226_invertBinaryTree/unittest/leetcode_226_unittest.py
+Mon Aug 14 15:16:41 EDT 2023: Running test file src/leetcode_226_invertBinaryTree/unittest/leetcode_226_unittest.py
 ...
 ----------------------------------------------------------------------
 Ran 3 tests in 0.000s
 
 OK
 
-Thu Aug 10 10:25:56 EDT 2023: Running test file src/leetcode_230_kthSmallestElementInABST/unittest/leetcode_230_unittest.py
+Mon Aug 14 15:16:41 EDT 2023: Running test file src/leetcode_230_kthSmallestElementInABST/unittest/leetcode_230_unittest.py
 ...
 ----------------------------------------------------------------------
 Ran 3 tests in 0.000s
 
 OK
 
-Thu Aug 10 10:25:56 EDT 2023: Running test file src/leetcode_232_implementQueueUsingStacks/unittest/leetcode_232_unittest.py
+Mon Aug 14 15:16:41 EDT 2023: Running test file src/leetcode_232_implementQueueUsingStacks/unittest/leetcode_232_unittest.py
 ......
 ----------------------------------------------------------------------
 Ran 6 tests in 0.000s
 
 OK
 
-Thu Aug 10 10:25:56 EDT 2023: Running test file src/leetcode_234_palindromeLinkedList/unittest/leetcode_234_unittest.py
+Mon Aug 14 15:16:41 EDT 2023: Running test file src/leetcode_234_palindromeLinkedList/unittest/leetcode_234_unittest.py
 .....
 ----------------------------------------------------------------------
 Ran 5 tests in 0.000s
 
 OK
 
-Thu Aug 10 10:25:56 EDT 2023: Running test file src/leetcode_235_lowestCommonAncestorOfBinarySearchTree/unittest/leetcode_235_unittest.py
+Mon Aug 14 15:16:41 EDT 2023: Running test file src/leetcode_235_lowestCommonAncestorOfBinarySearchTree/unittest/leetcode_235_unittest.py
 ...
 ----------------------------------------------------------------------
 Ran 3 tests in 0.000s
 
 OK
 
-Thu Aug 10 10:25:56 EDT 2023: Running test file src/leetcode_236_lowestCommonAncestorOfABinaryTree/unittest/leetcode_236_unittest.py
+Mon Aug 14 15:16:41 EDT 2023: Running test file src/leetcode_236_lowestCommonAncestorOfABinaryTree/unittest/leetcode_236_unittest.py
 ...
 ----------------------------------------------------------------------
 Ran 3 tests in 0.000s
 
 OK
 
-Thu Aug 10 10:25:56 EDT 2023: Running test file src/leetcode_238_productOfArrayExceptSelf/unittest/leetcode_238_unittest.py
+Mon Aug 14 15:16:41 EDT 2023: Running test file src/leetcode_238_productOfArrayExceptSelf/unittest/leetcode_238_unittest.py
 .......
 ----------------------------------------------------------------------
 Ran 7 tests in 0.000s
 
 OK
 
-Thu Aug 10 10:25:56 EDT 2023: Running test file src/leetcode_242_validAnagram/unittest/leetcode_242_unittest.py
+Mon Aug 14 15:16:41 EDT 2023: Running test file src/leetcode_23_mergeKSortedLists/unittest/leetcode_23_unittest.py
+...
+----------------------------------------------------------------------
+Ran 3 tests in 0.000s
+
+OK
+
+Mon Aug 14 15:16:41 EDT 2023: Running test file src/leetcode_242_validAnagram/unittest/leetcode_242_unittest.py
 .......
 ----------------------------------------------------------------------
 Ran 7 tests in 0.001s
 
 OK
 
-Thu Aug 10 10:25:56 EDT 2023: Running test file src/leetcode_263_uglyNumber/unittest/leetcode_263_unittest.py
+Mon Aug 14 15:16:42 EDT 2023: Running test file src/leetcode_263_uglyNumber/unittest/leetcode_263_unittest.py
 ...
 ----------------------------------------------------------------------
 Ran 3 tests in 0.000s
 
 OK
 
-Thu Aug 10 10:25:56 EDT 2023: Running test file src/leetcode_264_uglyNumberII/unittest/leetcode_264_unittest.py
+Mon Aug 14 15:16:42 EDT 2023: Running test file src/leetcode_264_uglyNumberII/unittest/leetcode_264_unittest.py
 ..
 ----------------------------------------------------------------------
 Ran 2 tests in 0.000s
 
 OK
 
-Thu Aug 10 10:25:56 EDT 2023: Running test file src/leetcode_268_missingNumber/unittest/leetcode_268_unittest.py
+Mon Aug 14 15:16:42 EDT 2023: Running test file src/leetcode_268_missingNumber/unittest/leetcode_268_unittest.py
 ....
 ----------------------------------------------------------------------
 Ran 4 tests in 0.000s
 
 OK
 
-Thu Aug 10 10:25:56 EDT 2023: Running test file src/leetcode_269_alienDictionary/unittest/leetcode_269_unittest.py
+Mon Aug 14 15:16:42 EDT 2023: Running test file src/leetcode_269_alienDictionary/unittest/leetcode_269_unittest.py
 ....
 ----------------------------------------------------------------------
 Ran 4 tests in 0.000s
 
 OK
 
-Thu Aug 10 10:25:56 EDT 2023: Running test file src/leetcode_278_firstBadVersion/unittest/leetcode_278_unittest.py
+Mon Aug 14 15:16:42 EDT 2023: Running test file src/leetcode_278_firstBadVersion/unittest/leetcode_278_unittest.py
 ....
 ----------------------------------------------------------------------
 Ran 4 tests in 0.000s
 
 OK
 
-Thu Aug 10 10:25:57 EDT 2023: Running test file src/leetcode_279_perfectSquares/unittest/leetcode_279_unittest.py
+Mon Aug 14 15:16:42 EDT 2023: Running test file src/leetcode_279_perfectSquares/unittest/leetcode_279_unittest.py
 ......
 ----------------------------------------------------------------------
-Ran 6 tests in 1.304s
+Ran 6 tests in 1.299s
 
 OK
 
-Thu Aug 10 10:25:58 EDT 2023: Running test file src/leetcode_295_findMedianFromDataStream/unittest/leetcode_295_unittest.py
+Mon Aug 14 15:16:43 EDT 2023: Running test file src/leetcode_295_findMedianFromDataStream/unittest/leetcode_295_unittest.py
 ....
 ----------------------------------------------------------------------
 Ran 4 tests in 0.000s
 
 OK
 
-Thu Aug 10 10:25:58 EDT 2023: Running test file src/leetcode_297_SerializeAndDeserializeBinaryTree/unittest/leetcode_297_unittest.py
+Mon Aug 14 15:16:43 EDT 2023: Running test file src/leetcode_297_SerializeAndDeserializeBinaryTree/unittest/leetcode_297_unittest.py
 ..
 ----------------------------------------------------------------------
 Ran 2 tests in 0.000s
 
 OK
 
-Thu Aug 10 10:25:58 EDT 2023: Running test file src/leetcode_29_divideTwoIntegers/unittest/leetcode_29_unittest.py
+Mon Aug 14 15:16:43 EDT 2023: Running test file src/leetcode_29_divideTwoIntegers/unittest/leetcode_29_unittest.py
 .....
 ----------------------------------------------------------------------
 Ran 5 tests in 0.000s
 
 OK
 
-Thu Aug 10 10:25:58 EDT 2023: Running test file src/leetcode_300_longestIncreasingSubsequence/unittest/leetcode_300_unittest.py
+Mon Aug 14 15:16:43 EDT 2023: Running test file src/leetcode_300_longestIncreasingSubsequence/unittest/leetcode_300_unittest.py
 ....
 ----------------------------------------------------------------------
 Ran 4 tests in 0.000s
 
 OK
 
-Thu Aug 10 10:25:58 EDT 2023: Running test file src/leetcode_310_minimumHeightTrees/unittest/leetcode_310_unittest.py
+Mon Aug 14 15:16:44 EDT 2023: Running test file src/leetcode_310_minimumHeightTrees/unittest/leetcode_310_unittest.py
 ..
 ----------------------------------------------------------------------
 Ran 2 tests in 0.000s
 
 OK
 
-Thu Aug 10 10:25:58 EDT 2023: Running test file src/leetcode_312_burstBalloons/unittest/leetcode_312_unittest.py
+Mon Aug 14 15:16:44 EDT 2023: Running test file src/leetcode_312_burstBalloons/unittest/leetcode_312_unittest.py
 ....
 ----------------------------------------------------------------------
-Ran 4 tests in 0.023s
+Ran 4 tests in 0.022s
 
 OK
 
-Thu Aug 10 10:25:58 EDT 2023: Running test file src/leetcode_322_coinChange/unittest/leetcode_322_unittest.py
+Mon Aug 14 15:16:44 EDT 2023: Running test file src/leetcode_322_coinChange/unittest/leetcode_322_unittest.py
 ....
 ----------------------------------------------------------------------
 Ran 4 tests in 0.000s
 
 OK
 
-Thu Aug 10 10:25:58 EDT 2023: Running test file src/leetcode_33_searchInRotatedSortedArray/unittest/leetcode_33_unittest.py
+Mon Aug 14 15:16:44 EDT 2023: Running test file src/leetcode_33_searchInRotatedSortedArray/unittest/leetcode_33_unittest.py
 ...
 ----------------------------------------------------------------------
 Ran 3 tests in 0.000s
 
 OK
 
-Thu Aug 10 10:25:58 EDT 2023: Running test file src/leetcode_34_FindFirstAndLastPositionOfElementInSortedArray/unittest/leetcode_34_unittest.py
+Mon Aug 14 15:16:44 EDT 2023: Running test file src/leetcode_34_FindFirstAndLastPositionOfElementInSortedArray/unittest/leetcode_34_unittest.py
 ....
 ----------------------------------------------------------------------
 Ran 4 tests in 0.000s
 
 OK
 
-Thu Aug 10 10:25:58 EDT 2023: Running test file src/leetcode_368_largestDivisibleSubset/unittest/leetcode_368_unittest.py
+Mon Aug 14 15:16:44 EDT 2023: Running test file src/leetcode_368_largestDivisibleSubset/unittest/leetcode_368_unittest.py
 .....
 ----------------------------------------------------------------------
 Ran 5 tests in 0.000s
 
 OK
 
-Thu Aug 10 10:25:59 EDT 2023: Running test file src/leetcode_383_ransomNote/unittest/leetcode_383_unittest.py
+Mon Aug 14 15:16:44 EDT 2023: Running test file src/leetcode_383_ransomNote/unittest/leetcode_383_unittest.py
 ........
 ----------------------------------------------------------------------
 Ran 8 tests in 0.035s
 
 OK
 
-Thu Aug 10 10:25:59 EDT 2023: Running test file src/leetcode_39_combinationSum/unittest/leetcode_39_unittest.py
+Mon Aug 14 15:16:44 EDT 2023: Running test file src/leetcode_39_combinationSum/unittest/leetcode_39_unittest.py
 ...
 ----------------------------------------------------------------------
 Ran 3 tests in 0.000s
 
 OK
 
-Thu Aug 10 10:25:59 EDT 2023: Running test file src/leetcode_3_longestSubstringWithoutRepeatingCharacters/unittest/leetcode_3_unittest.py
+Mon Aug 14 15:16:44 EDT 2023: Running test file src/leetcode_3_longestSubstringWithoutRepeatingCharacters/unittest/leetcode_3_unittest.py
 ......
 ----------------------------------------------------------------------
 Ran 6 tests in 0.000s
 
 OK
 
-Thu Aug 10 10:25:59 EDT 2023: Running test file src/leetcode_409_longestPalindrome/unittest/leetcode_409_unittest.py
+Mon Aug 14 15:16:44 EDT 2023: Running test file src/leetcode_409_longestPalindrome/unittest/leetcode_409_unittest.py
 ........
 ----------------------------------------------------------------------
 Ran 8 tests in 0.000s
 
 OK
 
-Thu Aug 10 10:25:59 EDT 2023: Running test file src/leetcode_416_partitionEqualSubsetSum/unittest/leetcode_416_unittest.py
+Mon Aug 14 15:16:44 EDT 2023: Running test file src/leetcode_416_partitionEqualSubsetSum/unittest/leetcode_416_unittest.py
 ....
 ----------------------------------------------------------------------
 Ran 4 tests in 0.001s
 
 OK
 
-Thu Aug 10 10:25:59 EDT 2023: Running test file src/leetcode_42_trappingRainWater/unittest/leetcode_42_unittest.py
+Mon Aug 14 15:16:44 EDT 2023: Running test file src/leetcode_42_trappingRainWater/unittest/leetcode_42_unittest.py
 ..
 ----------------------------------------------------------------------
 Ran 2 tests in 0.000s
 
 OK
 
-Thu Aug 10 10:25:59 EDT 2023: Running test file src/leetcode_438_findAllAnagramsInAString/unittest/leetcode_438_unittest.py
+Mon Aug 14 15:16:44 EDT 2023: Running test file src/leetcode_438_findAllAnagramsInAString/unittest/leetcode_438_unittest.py
 .......
 ----------------------------------------------------------------------
-Ran 7 tests in 0.056s
+Ran 7 tests in 0.057s
 
 OK
 
-Thu Aug 10 10:25:59 EDT 2023: Running test file src/leetcode_456_132pattern/unittest/leetcode_456_unittest.py
+Mon Aug 14 15:16:44 EDT 2023: Running test file src/leetcode_456_132pattern/unittest/leetcode_456_unittest.py
 ....
 ----------------------------------------------------------------------
 Ran 4 tests in 0.000s
 
 OK
 
-Thu Aug 10 10:25:59 EDT 2023: Running test file src/leetcode_46_permutations/unittest/leetcode_46_unittest.py
+Mon Aug 14 15:16:45 EDT 2023: Running test file src/leetcode_46_permutations/unittest/leetcode_46_unittest.py
 ...
 ----------------------------------------------------------------------
 Ran 3 tests in 0.000s
 
 OK
 
-Thu Aug 10 10:25:59 EDT 2023: Running test file src/leetcode_496_nextGreaterElementI/unittest/leetcode_496_unittest.py
+Mon Aug 14 15:16:45 EDT 2023: Running test file src/leetcode_496_nextGreaterElementI/unittest/leetcode_496_unittest.py
 .
 ----------------------------------------------------------------------
 Ran 1 test in 0.000s
 
 OK
 
-Thu Aug 10 10:25:59 EDT 2023: Running test file src/leetcode_4_medianofTwoSortedArrays/unittest/leetcode_4_unittest.py
+Mon Aug 14 15:16:45 EDT 2023: Running test file src/leetcode_4_medianofTwoSortedArrays/unittest/leetcode_4_unittest.py
 .
 ----------------------------------------------------------------------
 Ran 1 test in 0.000s
 
 OK
 
-Thu Aug 10 10:25:59 EDT 2023: Running test file src/leetcode_518_coinChange2/unittest/leetcode_518_unittest.py
+Mon Aug 14 15:16:45 EDT 2023: Running test file src/leetcode_518_coinChange2/unittest/leetcode_518_unittest.py
 .....
 ----------------------------------------------------------------------
-Ran 5 tests in 0.574s
+Ran 5 tests in 0.565s
 
 OK
 
-Thu Aug 10 10:26:00 EDT 2023: Running test file src/leetcode_53_maximumSubarray/unittest/leetcode_53_unittest.py
+Mon Aug 14 15:16:45 EDT 2023: Running test file src/leetcode_53_maximumSubarray/unittest/leetcode_53_unittest.py
 ....
 ----------------------------------------------------------------------
 Ran 4 tests in 0.000s
 
 OK
 
-Thu Aug 10 10:26:00 EDT 2023: Running test file src/leetcode_542_01Matrix/unittest/leetcode_542_unittest.py
+Mon Aug 14 15:16:45 EDT 2023: Running test file src/leetcode_542_01Matrix/unittest/leetcode_542_unittest.py
 ....
 ----------------------------------------------------------------------
 Ran 4 tests in 0.001s
 
 OK
 
-Thu Aug 10 10:26:00 EDT 2023: Running test file src/leetcode_543_diameterOfABinaryTree/unittest/leetcode_543_unittest.py
+Mon Aug 14 15:16:45 EDT 2023: Running test file src/leetcode_543_diameterOfABinaryTree/unittest/leetcode_543_unittest.py
 ......
 ----------------------------------------------------------------------
 Ran 6 tests in 0.000s
 
 OK
 
-Thu Aug 10 10:26:00 EDT 2023: Running test file src/leetcode_54_spiralMarix/unittest/leetcode_54_unittest.py
+Mon Aug 14 15:16:46 EDT 2023: Running test file src/leetcode_54_spiralMarix/unittest/leetcode_54_unittest.py
 ..
 ----------------------------------------------------------------------
 Ran 2 tests in 0.000s
 
 OK
 
-Thu Aug 10 10:26:00 EDT 2023: Running test file src/leetcode_556_nextGreaterElementIII/unittest/leetcode_556_unittest.py
+Mon Aug 14 15:16:46 EDT 2023: Running test file src/leetcode_556_nextGreaterElementIII/unittest/leetcode_556_unittest.py
 ...
 ----------------------------------------------------------------------
 Ran 3 tests in 0.000s
 
 OK
 
-Thu Aug 10 10:26:00 EDT 2023: Running test file src/leetcode_560_subarraySumEqualsK/unittest/leetcode_560_unittest.py
+Mon Aug 14 15:16:46 EDT 2023: Running test file src/leetcode_560_subarraySumEqualsK/unittest/leetcode_560_unittest.py
 ..
 ----------------------------------------------------------------------
 Ran 2 tests in 0.000s
 
 OK
 
-Thu Aug 10 10:26:00 EDT 2023: Running test file src/leetcode_56_mergeIntervals/unittest/leetcode_56_unittest.py
+Mon Aug 14 15:16:46 EDT 2023: Running test file src/leetcode_56_mergeIntervals/unittest/leetcode_56_unittest.py
 .......
 ----------------------------------------------------------------------
 Ran 7 tests in 0.000s
 
 OK
 
-Thu Aug 10 10:26:00 EDT 2023: Running test file src/leetcode_57_insertInterval/unittest/leetcode_57_unittest.py
+Mon Aug 14 15:16:46 EDT 2023: Running test file src/leetcode_57_insertInterval/unittest/leetcode_57_unittest.py
 ........
 ----------------------------------------------------------------------
 Ran 8 tests in 0.000s
 
 OK
 
-Thu Aug 10 10:26:01 EDT 2023: Running test file src/leetcode_583_deleteOperationforTwoStrings/unittest/leetcode_583_unittest.py
+Mon Aug 14 15:16:46 EDT 2023: Running test file src/leetcode_583_deleteOperationforTwoStrings/unittest/leetcode_583_unittest.py
 ..
 ----------------------------------------------------------------------
 Ran 2 tests in 0.000s
 
 OK
 
-Thu Aug 10 10:26:01 EDT 2023: Running test file src/leetcode_5_longestPalindromicSubstring/unittest/leetcode_5_unittest.py
+Mon Aug 14 15:16:46 EDT 2023: Running test file src/leetcode_5_longestPalindromicSubstring/unittest/leetcode_5_unittest.py
 ....
 ----------------------------------------------------------------------
 Ran 4 tests in 0.000s
 
 OK
 
-Thu Aug 10 10:26:01 EDT 2023: Running test file src/leetcode_621_taskScheduler/unittest/leetcode_621_unittest.py
+Mon Aug 14 15:16:46 EDT 2023: Running test file src/leetcode_621_taskScheduler/unittest/leetcode_621_unittest.py
 ...
 ----------------------------------------------------------------------
 Ran 3 tests in 0.000s
 
 OK
 
-Thu Aug 10 10:26:01 EDT 2023: Running test file src/leetcode_62_uniquePaths/unittest/leetcode_62_unittest.py
+Mon Aug 14 15:16:46 EDT 2023: Running test file src/leetcode_62_uniquePaths/unittest/leetcode_62_unittest.py
 ..
 ----------------------------------------------------------------------
 Ran 2 tests in 0.000s
 
 OK
 
-Thu Aug 10 10:26:01 EDT 2023: Running test file src/leetcode_67_addBinary/unittest/leetcode_67_unittest.py
+Mon Aug 14 15:16:46 EDT 2023: Running test file src/leetcode_67_addBinary/unittest/leetcode_67_unittest.py
 .....
 ----------------------------------------------------------------------
 Ran 5 tests in 0.000s
 
 OK
 
-Thu Aug 10 10:26:01 EDT 2023: Running test file src/leetcode_704_binarySearch/unittest/leetcode_704_unittest.py
+Mon Aug 14 15:16:46 EDT 2023: Running test file src/leetcode_704_binarySearch/unittest/leetcode_704_unittest.py
 ...........
 ----------------------------------------------------------------------
 Ran 11 tests in 0.000s
 
 OK
 
-Thu Aug 10 10:26:01 EDT 2023: Running test file src/leetcode_70_climbingStairs/unittest/leetcode_70_unittest.py
+Mon Aug 14 15:16:46 EDT 2023: Running test file src/leetcode_70_climbingStairs/unittest/leetcode_70_unittest.py
 ....
 ----------------------------------------------------------------------
 Ran 4 tests in 0.000s
 
 OK
 
-Thu Aug 10 10:26:01 EDT 2023: Running test file src/leetcode_712_minimumASCIIDeleteSumforTwoStrings/unittest/leetcode_712_unittest.py
+Mon Aug 14 15:16:46 EDT 2023: Running test file src/leetcode_712_minimumASCIIDeleteSumforTwoStrings/unittest/leetcode_712_unittest.py
 ...
 ----------------------------------------------------------------------
 Ran 3 tests in 0.001s
 
 OK
 
-Thu Aug 10 10:26:01 EDT 2023: Running test file src/leetcode_721_accountsMerge/unittest/leetcode_721_unittest.py
+Mon Aug 14 15:16:46 EDT 2023: Running test file src/leetcode_721_accountsMerge/unittest/leetcode_721_unittest.py
 ..
 ----------------------------------------------------------------------
 Ran 2 tests in 0.000s
 
 OK
 
-Thu Aug 10 10:26:01 EDT 2023: Running test file src/leetcode_72_editDistance/unittest/leetcode_72_unittest.py
+Mon Aug 14 15:16:46 EDT 2023: Running test file src/leetcode_72_editDistance/unittest/leetcode_72_unittest.py
 ...
 ----------------------------------------------------------------------
 Ran 3 tests in 0.001s
 
 OK
 
-Thu Aug 10 10:26:01 EDT 2023: Running test file src/leetcode_733_floodFill/unittest/leetcode_733_unittest.py
+Mon Aug 14 15:16:47 EDT 2023: Running test file src/leetcode_733_floodFill/unittest/leetcode_733_unittest.py
 ....
 ----------------------------------------------------------------------
 Ran 4 tests in 0.000s
 
 OK
 
-Thu Aug 10 10:26:01 EDT 2023: Running test file src/leetcode_75_sortColors/unittest/leetcode_75_unittest.py
+Mon Aug 14 15:16:47 EDT 2023: Running test file src/leetcode_75_sortColors/unittest/leetcode_75_unittest.py
 ...
 ----------------------------------------------------------------------
 Ran 3 tests in 0.000s
 
 OK
 
-Thu Aug 10 10:26:01 EDT 2023: Running test file src/leetcode_76_MinimumWindowSubstring/unittest/leetcode_76_unittest.py
+Mon Aug 14 15:16:47 EDT 2023: Running test file src/leetcode_76_MinimumWindowSubstring/unittest/leetcode_76_unittest.py
 ...
 ----------------------------------------------------------------------
 Ran 3 tests in 0.000s
 
 OK
 
-Thu Aug 10 10:26:01 EDT 2023: Running test file src/leetcode_78_subsets/unittest/leetcode_78_unittest.py
+Mon Aug 14 15:16:47 EDT 2023: Running test file src/leetcode_78_subsets/unittest/leetcode_78_unittest.py
 ..
 ----------------------------------------------------------------------
 Ran 2 tests in 0.000s
 
 OK
 
-Thu Aug 10 10:26:01 EDT 2023: Running test file src/leetcode_79_wordSearch/unittest/leetcode_79_unittest.py
+Mon Aug 14 15:16:47 EDT 2023: Running test file src/leetcode_79_wordSearch/unittest/leetcode_79_unittest.py
 .......
 ----------------------------------------------------------------------
 Ran 7 tests in 0.001s
 
 OK
 
-Thu Aug 10 10:26:02 EDT 2023: Running test file src/leetcode_7_reverseInteger/unittest/leetcode_7_unittest.py
+Mon Aug 14 15:16:47 EDT 2023: Running test file src/leetcode_7_reverseInteger/unittest/leetcode_7_unittest.py
 .....
 ----------------------------------------------------------------------
 Ran 5 tests in 0.000s
 
 OK
 
-Thu Aug 10 10:26:02 EDT 2023: Running test file src/leetcode_876_middleOfTheLinkedList/unittest/leetcode_876_unittest.py
+Mon Aug 14 15:16:47 EDT 2023: Running test file src/leetcode_876_middleOfTheLinkedList/unittest/leetcode_876_unittest.py
 .....
 ----------------------------------------------------------------------
 Ran 5 tests in 0.000s
 
 OK
 
-Thu Aug 10 10:26:02 EDT 2023: Running test file src/leetcode_877_stoneGame/unittest/leetcode_877_unittest.py
+Mon Aug 14 15:16:47 EDT 2023: Running test file src/leetcode_877_stoneGame/unittest/leetcode_877_unittest.py
 ..
 ----------------------------------------------------------------------
 Ran 2 tests in 0.000s
 
 OK
 
-Thu Aug 10 10:26:02 EDT 2023: Running test file src/leetcode_8_stringToIntegerAtoi/unittest/leetcode_8_unittest.py
+Mon Aug 14 15:16:47 EDT 2023: Running test file src/leetcode_8_stringToIntegerAtoi/unittest/leetcode_8_unittest.py
 ........
 ----------------------------------------------------------------------
 Ran 8 tests in 0.000s
 
 OK
 
-Thu Aug 10 10:26:02 EDT 2023: Running test file src/leetcode_973_KClosestPointsToOrigin/unittest/leetcode_973_unittest.py
+Mon Aug 14 15:16:47 EDT 2023: Running test file src/leetcode_973_KClosestPointsToOrigin/unittest/leetcode_973_unittest.py
 .....
 ----------------------------------------------------------------------
 Ran 5 tests in 0.000s
 
 OK
 
-Thu Aug 10 10:26:02 EDT 2023: Running test file src/leetcode_981_timeBasedKeyValueStore/unittest/leetcode_981_unittest.py
+Mon Aug 14 15:16:47 EDT 2023: Running test file src/leetcode_981_timeBasedKeyValueStore/unittest/leetcode_981_unittest.py
 ....
 ----------------------------------------------------------------------
 Ran 4 tests in 0.000s
 
 OK
 
-Thu Aug 10 10:26:02 EDT 2023: Running test file src/leetcode_98_validateBinarySearchTree/unittest/leetcode_98_unittest.py
+Mon Aug 14 15:16:47 EDT 2023: Running test file src/leetcode_98_validateBinarySearchTree/unittest/leetcode_98_unittest.py
 .....
 ----------------------------------------------------------------------
 Ran 5 tests in 0.000s
 
 OK
 
-Thu Aug 10 10:26:02 EDT 2023: Running test file src/leetcode_994_rottingOranges/unittest/leetcode_994_unittest.py
+Mon Aug 14 15:16:47 EDT 2023: Running test file src/leetcode_994_rottingOranges/unittest/leetcode_994_unittest.py
 .....
 ----------------------------------------------------------------------
 Ran 5 tests in 0.000s
