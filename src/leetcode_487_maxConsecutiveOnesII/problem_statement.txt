@@ -1,0 +1,43 @@
+https://leetcode.com/problems/max-consecutive-ones-ii
+
+
+Given a binary array nums, return the maximum number of consecutive 1's in the array if you can flip at most one 0.
+
+
+Example 1:
+Input: nums = [1,0,1,1,0]
+Output: 4
+Explanation: 
+- If we flip the first zero, nums becomes [1,1,1,1,0] and we have 4 consecutive ones.
+- If we flip the second zero, nums becomes [1,0,1,1,1] and we have 3 consecutive ones.
+The max number of consecutive ones is 4.
+
+Example 2:
+Input: nums = [1,0,1,1,0,1]
+Output: 4
+Explanation: 
+- If we flip the first zero, nums becomes [1,1,1,1,0,1] and we have 4 consecutive ones.
+- If we flip the second zero, nums becomes [1,0,1,1,1,1] and we have 4 consecutive ones.
+The max number of consecutive ones is 4.
+ 
+
+Constraints:
+1 <= nums.length <= 10^5
+nums[i] is either 0 or 1.
+ 
+
+Follow up: What if the input numbers come in one by one as an infinite stream? 
+In other words, you can't store all numbers coming from the stream as it's too large to hold in memory. 
+Could you solve it efficiently?
+
+The Prefix Sum Approach:
+In this approach, the number of consecutive 1's are overwritten on the original list.
+As the numbers come in, we'd continually overwrite on the list. This is okay, but with an infinite stream, we'd have to worry about the index of the last zero and the sum before that zero to make calculations, which would involve a mechanism to store previously encountered values.
+Handling an infinite stream with this approach might be cumbersome since you need to maintain the state of previous numbers. In a truly streaming scenario, this method could have difficulties, especially when there's a large gap between zeros.
+
+
+The Sliding Window Approach:
+This approach maintains a "window" between two positions in the list, effectively using two pointers (or indices): left and right.
+For an infinite stream, this is especially useful since we only need to maintain the current "window" of numbers, and not the entire stream. As numbers come in one by one, we can adjust our left and right pointers accordingly.
+When a new number comes in and it's 0, it can be efficiently managed by adjusting the window size (left and right). If the new number is 1, it just extends the window.
+We would only require a constant amount of extra memory to hold the variables (left, right, max_ones, etc.) regardless of the size of the input stream.

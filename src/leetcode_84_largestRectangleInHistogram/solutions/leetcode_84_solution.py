@@ -17,12 +17,12 @@ class Solution:
 
         Runtime and space complexity:
             Time(n): O(n), as each height is pushed and popped from the stack exactly once.
-            
+
             Space(n): O(n), for the additional stack used.
         """
         # Initialize a stack with -1 to handle the base case
         stack = [-1]
-        
+
         # This variable keeps track of the maximum rectangle area we've found so far
         max_rec_area = 0
 
@@ -33,7 +33,7 @@ class Solution:
                 height = heights[stack.pop()]
                 width = i - stack[-1] - 1
                 max_rec_area = max(max_rec_area, height * width)
-            
+
             # Add the current index to the stack
             stack.append(i)
 
