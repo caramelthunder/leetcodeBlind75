@@ -32,12 +32,18 @@ Could you solve it efficiently?
 
 The Prefix Sum Approach:
 In this approach, the number of consecutive 1's are overwritten on the original list.
-As the numbers come in, we'd continually overwrite on the list. This is okay, but with an infinite stream, we'd have to worry about the index of the last zero and the sum before that zero to make calculations, which would involve a mechanism to store previously encountered values.
-Handling an infinite stream with this approach might be cumbersome since you need to maintain the state of previous numbers. In a truly streaming scenario, this method could have difficulties, especially when there's a large gap between zeros.
+As the numbers come in, we'd continually overwrite on the list. This is okay, but with an infinite stream, 
+we'd have to worry about the index of the last zero and the sum before that zero to make calculations, 
+which would involve a mechanism to store previously encountered values.
+Handling an infinite stream with this approach might be cumbersome since you need to maintain the state of previous numbers. 
+In a truly streaming scenario, this method could have difficulties, especially when there's a large gap between zeros.
 
 
 The Sliding Window Approach:
 This approach maintains a "window" between two positions in the list, effectively using two pointers (or indices): left and right.
-For an infinite stream, this is especially useful since we only need to maintain the current "window" of numbers, and not the entire stream. As numbers come in one by one, we can adjust our left and right pointers accordingly.
-When a new number comes in and it's 0, it can be efficiently managed by adjusting the window size (left and right). If the new number is 1, it just extends the window.
-We would only require a constant amount of extra memory to hold the variables (left, right, max_ones, etc.) regardless of the size of the input stream.
+For an infinite stream, this is especially useful since we only need to maintain the current "window" of numbers, 
+and not the entire stream. As numbers come in one by one, we can adjust our left and right pointers accordingly.
+When a new number comes in and it's 0, it can be efficiently managed by adjusting the window size (left and right). 
+If the new number is 1, it just extends the window.
+We would only require a constant amount of extra memory to hold the variables (left, right, max_ones, etc.) 
+regardless of the size of the input stream.
