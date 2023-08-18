@@ -7,7 +7,7 @@ class Solution:
         Determines if a person could attend all meetings without any overlaps.
 
         Args:
-            intervals (List[List[int]]): A list of intervals where each interval is a list of two integers 
+            intervals (List[List[int]]): A list of intervals where each interval is a list of two integers
                                          representing the start and end time of a meeting.
 
         Returns:
@@ -19,7 +19,7 @@ class Solution:
         """
         # Sort the intervals based on start times.
         intervals.sort(key=lambda x: x[0])
-        
+
         # Check if there's any overlap between consecutive intervals.
         for i in range(len(intervals) - 1):
             if intervals[i][1] > intervals[i + 1][0]:
