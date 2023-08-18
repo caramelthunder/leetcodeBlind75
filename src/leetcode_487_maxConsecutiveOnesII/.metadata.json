@@ -1,0 +1,6 @@
+{
+    "name": "Max Consecutive Ones II",
+    "level": "2",
+    "leetcode_url": "https://leetcode.com/problems/max-consecutive-ones-ii",
+    "topics": ["Array", "Sliding Window", "Dynamic Programming", "Prefix Sum"]
+}
