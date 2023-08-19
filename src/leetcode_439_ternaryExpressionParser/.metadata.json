@@ -1,0 +1,6 @@
+{
+    "name": "Ternary Expression Parser",
+    "level": "2",
+    "leetcode_url": "https://leetcode.com/problems/ternary-expression-parser/",
+    "topics": ["String", "Stack"]
+}
