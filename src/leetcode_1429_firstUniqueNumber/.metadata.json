@@ -1,0 +1,6 @@
+{
+    "name": "First Unique Number",
+    "level": "2",
+    "leetcode_url": "https://leetcode.com/problems/first-unique-number",
+    "topics": ["Queue", "Design", "Hash Table", "Linked List"]
+}
