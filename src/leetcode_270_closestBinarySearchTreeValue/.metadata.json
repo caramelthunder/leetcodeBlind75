@@ -2,5 +2,5 @@
     "name": "Closest Binary Search Tree Value",
     "level": "1",
     "leetcode_url": "https://leetcode.com/problems/closest-binary-search-tree-value",
-    "topics": ["Binary Search Tree", "Recursion", "Depth-first Search"]
+    "topics": ["Binary Search Tree", "Recursion", "Depth-First Search"]
 }

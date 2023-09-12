@@ -2,5 +2,5 @@
     "name": "Clone N-ary Tree",
     "level": "2",
     "leetcode_url": "https://leetcode.com/problems/clone-n-ary-tree",
-    "topics": ["Tree", "Depth-first Search", "Breadth-first Search"]
+    "topics": ["Tree", "Depth-First Search", "Breadth-First Search"]
 }
