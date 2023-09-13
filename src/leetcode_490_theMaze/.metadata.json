@@ -2,5 +2,5 @@
     "name": "The Maze ",
     "level": "2",
     "leetcode_url": "https://leetcode.com/problems/the-maze",
-    "topics": ["Breadth-first Search", "Depth-first Search", "Grid", "Graph"]
+    "topics": ["Breadth-First Search", "Depth-First Search", "Grid", "Graph", "Backtracking"]
 }
