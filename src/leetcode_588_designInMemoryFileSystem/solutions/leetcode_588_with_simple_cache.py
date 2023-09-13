@@ -111,7 +111,7 @@ class FileSystem:
             return self.recent_paths[path]
 
         curr_dir = self.root
-        for i, name in enumerate(dir_names):
+        for name in dir_names:
             if isinstance(curr_dir, Directory):
                 if name not in curr_dir.content:
                     if create_if_not_exist:
